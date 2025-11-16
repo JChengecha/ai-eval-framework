@@ -206,8 +206,8 @@ MIT License - see LICENSE file for details
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@JChengecha](https://github.com/JChengecha)
+- LinkedIn: [Joseph Chengecha](https://www.linkedin.com/in/josephchengecha)
 
 ## 🙏 Acknowledgments
 
