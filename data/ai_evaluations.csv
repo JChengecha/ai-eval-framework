@@ -1,0 +1,1001 @@
+task_id,timestamp,task_type,file_type,finance_domain,evaluation_criterion,agent,success,score,error_type,processing_time_sec,file_size_kb,complexity_score
+TASK_0000,2024-01-01 00:00:00,Data Extraction,Word,Insurance,Timeliness,Agent_A,True,87.23,,40.11,140,6
+TASK_0001,2024-01-01 01:00:00,Compliance Check,Excel,Asset Management,Data Quality,Agent_B,True,85.18,,25.72,2568,10
+TASK_0002,2024-01-01 02:00:00,Data Extraction,JSON,Risk Management,Data Quality,Agent_C,True,86.14,,29.65,1538,3
+TASK_0003,2024-01-01 03:00:00,Compliance Check,CSV,Trading,Accuracy,Agent_C,True,85.76,,36.65,2051,9
+TASK_0004,2024-01-01 04:00:00,Risk Assessment,Word,Retail Banking,Compliance,Agent_C,False,61.95,Format Error,33.73,3162,4
+TASK_0005,2024-01-01 05:00:00,Risk Assessment,JSON,Retail Banking,Data Quality,Agent_B,True,81.31,,30.67,171,10
+TASK_0006,2024-01-01 06:00:00,Market Research,JSON,Risk Management,Data Quality,Agent_C,True,87.11,,46.42,4897,10
+TASK_0007,2024-01-01 07:00:00,Financial Analysis,JSON,Asset Management,Compliance,Agent_A,True,89.66,,58.88,4524,1
+TASK_0008,2024-01-01 08:00:00,Report Generation,Word,Retail Banking,Completeness,Agent_A,False,42.48,Hallucination,41.65,4608,7
+TASK_0009,2024-01-01 09:00:00,Market Research,Word,Insurance,Compliance,Agent_B,False,29.43,Incomplete Output,29.24,2700,1
+TASK_0010,2024-01-01 10:00:00,Compliance Check,Excel,Risk Management,Formatting,Agent_A,True,83.8,,20.34,873,7
+TASK_0011,2024-01-01 11:00:00,Financial Analysis,JSON,Trading,Compliance,Agent_B,True,91.98,,72.87,4646,4
+TASK_0012,2024-01-01 12:00:00,Compliance Check,CSV,Insurance,Data Quality,Agent_B,True,80.12,,26.84,4901,4
+TASK_0013,2024-01-01 13:00:00,Market Research,CSV,Retail Banking,Compliance,Agent_A,True,82.95,,26.32,4039,9
+TASK_0014,2024-01-01 14:00:00,Data Extraction,Word,Investment Banking,Formatting,Agent_C,True,74.52,,59.44,4789,8
+TASK_0015,2024-01-01 15:00:00,Report Generation,PDF,Asset Management,Accuracy,Agent_B,False,16.22,Hallucination,44.73,3009,1
+TASK_0016,2024-01-01 16:00:00,Report Generation,PDF,Retail Banking,Completeness,Agent_B,True,94.9,,30.74,1717,10
+TASK_0017,2024-01-01 17:00:00,Market Research,JSON,Insurance,Formatting,Agent_A,True,96.22,,15.98,207,6
+TASK_0018,2024-01-01 18:00:00,Report Generation,PDF,Investment Banking,Compliance,Agent_C,True,85.8,,39.97,1379,3
+TASK_0019,2024-01-01 19:00:00,Report Generation,JSON,Asset Management,Accuracy,Agent_A,True,94.99,,30.66,1812,9
+TASK_0020,2024-01-01 20:00:00,Financial Analysis,Excel,Risk Management,Completeness,Agent_C,True,71.32,,51.19,3733,5
+TASK_0021,2024-01-01 21:00:00,Compliance Check,CSV,Investment Banking,Accuracy,Agent_C,False,46.63,Incomplete Output,31.06,3201,1
+TASK_0022,2024-01-01 22:00:00,Data Extraction,CSV,Investment Banking,Compliance,Agent_B,False,17.25,Hallucination,41.69,108,9
+TASK_0023,2024-01-01 23:00:00,Compliance Check,Excel,Risk Management,Completeness,Agent_B,True,75.47,,36.57,170,4
+TASK_0024,2024-01-02 00:00:00,Financial Analysis,Word,Asset Management,Formatting,Agent_A,True,90.07,,80.61,4575,7
+TASK_0025,2024-01-02 01:00:00,Market Research,Word,Insurance,Data Quality,Agent_C,True,95.4,,16.56,969,1
+TASK_0026,2024-01-02 02:00:00,Compliance Check,JSON,Trading,Formatting,Agent_C,False,18.25,Incomplete Output,27.57,1070,8
+TASK_0027,2024-01-02 03:00:00,Compliance Check,PDF,Risk Management,Timeliness,Agent_C,False,38.21,Timeout,52.77,2985,7
+TASK_0028,2024-01-02 04:00:00,Financial Analysis,CSV,Retail Banking,Accuracy,Agent_B,False,54.45,Missing Data,67.63,4024,6
+TASK_0029,2024-01-02 05:00:00,Risk Assessment,CSV,Retail Banking,Completeness,Agent_B,True,93.66,,40.54,2816,10
+TASK_0030,2024-01-02 06:00:00,Report Generation,Excel,Investment Banking,Timeliness,Agent_B,True,75.53,,34.95,3857,3
+TASK_0031,2024-01-02 07:00:00,Data Extraction,Excel,Retail Banking,Data Quality,Agent_C,True,70.69,,33.57,1725,10
+TASK_0032,2024-01-02 08:00:00,Market Research,CSV,Asset Management,Timeliness,Agent_A,False,63.16,Logic Error,28.49,4152,3
+TASK_0033,2024-01-02 09:00:00,Data Extraction,Word,Retail Banking,Compliance,Agent_B,True,79.71,,38.52,3685,10
+TASK_0034,2024-01-02 10:00:00,Risk Assessment,Word,Retail Banking,Timeliness,Agent_B,False,33.42,Missing Data,46.61,4739,1
+TASK_0035,2024-01-02 11:00:00,Risk Assessment,PDF,Trading,Timeliness,Agent_A,False,50.66,Incomplete Output,61.51,2304,3
+TASK_0036,2024-01-02 12:00:00,Data Extraction,Excel,Insurance,Timeliness,Agent_B,True,83.1,,48.72,2275,10
+TASK_0037,2024-01-02 13:00:00,Compliance Check,JSON,Investment Banking,Data Quality,Agent_B,True,82.4,,35.25,3740,10
+TASK_0038,2024-01-02 14:00:00,Financial Analysis,Word,Trading,Compliance,Agent_C,False,50.16,Logic Error,59.26,1697,2
+TASK_0039,2024-01-02 15:00:00,Report Generation,JSON,Investment Banking,Accuracy,Agent_A,True,83.79,,35.88,3923,2
+TASK_0040,2024-01-02 16:00:00,Compliance Check,CSV,Retail Banking,Formatting,Agent_C,True,92.08,,25.35,1635,2
+TASK_0041,2024-01-02 17:00:00,Report Generation,PDF,Asset Management,Completeness,Agent_A,True,88.59,,44.21,685,10
+TASK_0042,2024-01-02 18:00:00,Compliance Check,PDF,Insurance,Accuracy,Agent_C,True,95.22,,39.08,1697,7
+TASK_0043,2024-01-02 19:00:00,Market Research,Word,Asset Management,Accuracy,Agent_C,False,38.88,Hallucination,32.62,3962,4
+TASK_0044,2024-01-02 20:00:00,Financial Analysis,Word,Insurance,Formatting,Agent_A,True,88.14,,48.75,2792,4
+TASK_0045,2024-01-02 21:00:00,Report Generation,Excel,Trading,Timeliness,Agent_C,True,73.47,,32.69,3646,7
+TASK_0046,2024-01-02 22:00:00,Financial Analysis,Word,Trading,Completeness,Agent_B,True,68.28,,67.7,742,2
+TASK_0047,2024-01-02 23:00:00,Data Extraction,PDF,Retail Banking,Completeness,Agent_A,True,86.96,,39.93,3003,10
+TASK_0048,2024-01-03 00:00:00,Risk Assessment,Word,Trading,Timeliness,Agent_B,False,23.28,Logic Error,15.93,1690,7
+TASK_0049,2024-01-03 01:00:00,Financial Analysis,Word,Asset Management,Compliance,Agent_B,False,9.91,Format Error,46.48,723,10
+TASK_0050,2024-01-03 02:00:00,Report Generation,CSV,Trading,Timeliness,Agent_B,True,87.58,,21.73,3082,3
+TASK_0051,2024-01-03 03:00:00,Compliance Check,JSON,Risk Management,Accuracy,Agent_C,True,85.46,,21.56,143,10
+TASK_0052,2024-01-03 04:00:00,Data Extraction,Word,Trading,Timeliness,Agent_C,False,48.36,Timeout,30.13,1260,3
+TASK_0053,2024-01-03 05:00:00,Data Extraction,PDF,Retail Banking,Accuracy,Agent_A,False,77.3,Incomplete Output,37.33,3340,7
+TASK_0054,2024-01-03 06:00:00,Financial Analysis,CSV,Asset Management,Completeness,Agent_B,True,73.38,,57.84,4195,8
+TASK_0055,2024-01-03 07:00:00,Risk Assessment,JSON,Retail Banking,Compliance,Agent_A,False,16.31,Logic Error,33.62,2518,3
+TASK_0056,2024-01-03 08:00:00,Compliance Check,Excel,Insurance,Timeliness,Agent_C,False,26.52,Hallucination,31.9,4479,1
+TASK_0057,2024-01-03 09:00:00,Risk Assessment,PDF,Insurance,Timeliness,Agent_B,True,84.08,,57.38,520,1
+TASK_0058,2024-01-03 10:00:00,Compliance Check,JSON,Investment Banking,Timeliness,Agent_C,False,47.5,Timeout,38.08,2734,10
+TASK_0059,2024-01-03 11:00:00,Risk Assessment,CSV,Investment Banking,Timeliness,Agent_B,True,78.21,,20.64,4554,1
+TASK_0060,2024-01-03 12:00:00,Risk Assessment,JSON,Retail Banking,Completeness,Agent_B,True,80.86,,38.93,1994,6
+TASK_0061,2024-01-03 13:00:00,Data Extraction,Word,Risk Management,Data Quality,Agent_C,True,90.16,,43.69,4683,3
+TASK_0062,2024-01-03 14:00:00,Market Research,JSON,Retail Banking,Data Quality,Agent_B,True,75.53,,9.61,4552,2
+TASK_0063,2024-01-03 15:00:00,Data Extraction,PDF,Risk Management,Accuracy,Agent_C,True,92.85,,48.31,2190,4
+TASK_0064,2024-01-03 16:00:00,Risk Assessment,PDF,Retail Banking,Accuracy,Agent_A,False,13.99,Format Error,44.11,4148,3
+TASK_0065,2024-01-03 17:00:00,Financial Analysis,CSV,Risk Management,Compliance,Agent_A,False,75.83,Missing Data,46.81,4166,10
+TASK_0066,2024-01-03 18:00:00,Report Generation,CSV,Trading,Timeliness,Agent_B,True,84.14,,19.65,2403,2
+TASK_0067,2024-01-03 19:00:00,Financial Analysis,Excel,Trading,Formatting,Agent_A,True,100.0,,48.03,4212,1
+TASK_0068,2024-01-03 20:00:00,Risk Assessment,JSON,Investment Banking,Accuracy,Agent_C,True,80.62,,17.72,4831,10
+TASK_0069,2024-01-03 21:00:00,Data Extraction,Excel,Trading,Completeness,Agent_B,True,88.2,,22.15,928,2
+TASK_0070,2024-01-03 22:00:00,Risk Assessment,CSV,Insurance,Accuracy,Agent_C,True,79.83,,19.18,4642,1
+TASK_0071,2024-01-03 23:00:00,Compliance Check,JSON,Investment Banking,Compliance,Agent_B,False,31.89,Incomplete Output,29.97,4728,8
+TASK_0072,2024-01-04 00:00:00,Financial Analysis,JSON,Insurance,Completeness,Agent_A,True,86.81,,58.4,3524,8
+TASK_0073,2024-01-04 01:00:00,Report Generation,Word,Risk Management,Timeliness,Agent_A,True,79.79,,25.13,3527,8
+TASK_0074,2024-01-04 02:00:00,Financial Analysis,CSV,Insurance,Timeliness,Agent_C,False,56.96,Incomplete Output,51.45,127,1
+TASK_0075,2024-01-04 03:00:00,Market Research,CSV,Risk Management,Accuracy,Agent_B,True,71.64,,35.43,1151,4
+TASK_0076,2024-01-04 04:00:00,Report Generation,JSON,Investment Banking,Compliance,Agent_A,True,92.9,,37.64,1583,5
+TASK_0077,2024-01-04 05:00:00,Market Research,CSV,Asset Management,Timeliness,Agent_C,True,79.02,,8.61,270,7
+TASK_0078,2024-01-04 06:00:00,Risk Assessment,JSON,Retail Banking,Timeliness,Agent_B,True,84.43,,19.76,2048,3
+TASK_0079,2024-01-04 07:00:00,Market Research,PDF,Trading,Data Quality,Agent_B,True,86.36,,45.89,2645,3
+TASK_0080,2024-01-04 08:00:00,Report Generation,PDF,Risk Management,Compliance,Agent_A,True,80.24,,50.88,1324,5
+TASK_0081,2024-01-04 09:00:00,Compliance Check,Word,Insurance,Formatting,Agent_B,True,91.97,,26.74,2146,2
+TASK_0082,2024-01-04 10:00:00,Market Research,CSV,Trading,Data Quality,Agent_A,True,72.36,,30.16,1258,7
+TASK_0083,2024-01-04 11:00:00,Risk Assessment,Word,Insurance,Formatting,Agent_B,False,22.82,Logic Error,41.44,2045,7
+TASK_0084,2024-01-04 12:00:00,Report Generation,JSON,Trading,Data Quality,Agent_A,True,91.64,,21.44,2253,6
+TASK_0085,2024-01-04 13:00:00,Risk Assessment,Excel,Trading,Formatting,Agent_B,True,95.3,,25.55,3238,4
+TASK_0086,2024-01-04 14:00:00,Data Extraction,Word,Retail Banking,Formatting,Agent_C,True,98.65,,35.17,2126,4
+TASK_0087,2024-01-04 15:00:00,Report Generation,Excel,Risk Management,Data Quality,Agent_C,True,86.44,,56.44,994,1
+TASK_0088,2024-01-04 16:00:00,Data Extraction,CSV,Asset Management,Compliance,Agent_A,False,33.14,Logic Error,34.71,3459,9
+TASK_0089,2024-01-04 17:00:00,Market Research,CSV,Trading,Data Quality,Agent_A,False,30.16,Timeout,28.74,3427,4
+TASK_0090,2024-01-04 18:00:00,Market Research,PDF,Investment Banking,Data Quality,Agent_C,True,72.33,,59.15,1342,9
+TASK_0091,2024-01-04 19:00:00,Risk Assessment,JSON,Investment Banking,Timeliness,Agent_B,True,91.82,,6.79,2132,6
+TASK_0092,2024-01-04 20:00:00,Risk Assessment,Excel,Insurance,Completeness,Agent_C,True,82.92,,14.97,1215,8
+TASK_0093,2024-01-04 21:00:00,Financial Analysis,JSON,Risk Management,Timeliness,Agent_A,True,99.79,,61.27,2213,2
+TASK_0094,2024-01-04 22:00:00,Compliance Check,PDF,Investment Banking,Compliance,Agent_A,True,78.61,,43.35,1734,8
+TASK_0095,2024-01-04 23:00:00,Financial Analysis,PDF,Trading,Data Quality,Agent_C,False,36.49,Incomplete Output,76.29,2342,1
+TASK_0096,2024-01-05 00:00:00,Compliance Check,Word,Risk Management,Formatting,Agent_B,True,86.88,,48.18,2171,6
+TASK_0097,2024-01-05 01:00:00,Report Generation,JSON,Investment Banking,Timeliness,Agent_C,False,23.89,Incomplete Output,22.22,3461,1
+TASK_0098,2024-01-05 02:00:00,Data Extraction,Excel,Trading,Accuracy,Agent_A,True,90.77,,18.71,337,6
+TASK_0099,2024-01-05 03:00:00,Financial Analysis,Word,Insurance,Formatting,Agent_A,True,91.9,,56.23,1321,8
+TASK_0100,2024-01-05 04:00:00,Market Research,CSV,Asset Management,Compliance,Agent_A,True,71.45,,20.99,4435,7
+TASK_0101,2024-01-05 05:00:00,Financial Analysis,Word,Insurance,Timeliness,Agent_C,False,58.86,Timeout,48.15,3604,10
+TASK_0102,2024-01-05 06:00:00,Risk Assessment,CSV,Asset Management,Compliance,Agent_A,True,79.98,,42.52,3587,6
+TASK_0103,2024-01-05 07:00:00,Data Extraction,PDF,Retail Banking,Data Quality,Agent_C,False,39.96,Format Error,58.46,3290,9
+TASK_0104,2024-01-05 08:00:00,Risk Assessment,Word,Investment Banking,Accuracy,Agent_B,True,76.64,,27.78,2086,2
+TASK_0105,2024-01-05 09:00:00,Compliance Check,CSV,Risk Management,Completeness,Agent_A,False,33.61,Timeout,29.97,4693,7
+TASK_0106,2024-01-05 10:00:00,Compliance Check,Excel,Risk Management,Timeliness,Agent_C,False,48.84,Logic Error,39.83,464,10
+TASK_0107,2024-01-05 11:00:00,Compliance Check,PDF,Retail Banking,Timeliness,Agent_B,True,82.22,,46.99,3373,3
+TASK_0108,2024-01-05 12:00:00,Risk Assessment,Word,Trading,Formatting,Agent_C,True,77.19,,40.54,1260,6
+TASK_0109,2024-01-05 13:00:00,Risk Assessment,Word,Investment Banking,Completeness,Agent_C,True,80.39,,31.22,4470,2
+TASK_0110,2024-01-05 14:00:00,Financial Analysis,Excel,Retail Banking,Timeliness,Agent_A,True,84.72,,67.71,948,8
+TASK_0111,2024-01-05 15:00:00,Risk Assessment,PDF,Insurance,Formatting,Agent_B,False,28.68,Missing Data,54.29,2332,5
+TASK_0112,2024-01-05 16:00:00,Data Extraction,CSV,Insurance,Accuracy,Agent_A,True,86.74,,49.46,4117,8
+TASK_0113,2024-01-05 17:00:00,Report Generation,Word,Investment Banking,Timeliness,Agent_B,True,95.84,,40.29,498,10
+TASK_0114,2024-01-05 18:00:00,Risk Assessment,PDF,Retail Banking,Timeliness,Agent_B,False,51.7,Missing Data,42.87,836,7
+TASK_0115,2024-01-05 19:00:00,Compliance Check,Excel,Risk Management,Compliance,Agent_C,True,100.0,,33.4,1192,8
+TASK_0116,2024-01-05 20:00:00,Report Generation,JSON,Asset Management,Timeliness,Agent_B,False,7.06,Logic Error,42.98,48,8
+TASK_0117,2024-01-05 21:00:00,Financial Analysis,JSON,Trading,Data Quality,Agent_A,False,5.29,Logic Error,57.3,3531,7
+TASK_0118,2024-01-05 22:00:00,Report Generation,Excel,Retail Banking,Data Quality,Agent_C,False,55.7,Format Error,30.47,823,4
+TASK_0119,2024-01-05 23:00:00,Compliance Check,PDF,Trading,Data Quality,Agent_A,True,72.16,,50.68,2434,10
+TASK_0120,2024-01-06 00:00:00,Market Research,PDF,Asset Management,Timeliness,Agent_A,True,82.6,,36.95,2043,4
+TASK_0121,2024-01-06 01:00:00,Risk Assessment,Word,Investment Banking,Accuracy,Agent_A,False,15.99,Logic Error,17.93,2244,10
+TASK_0122,2024-01-06 02:00:00,Compliance Check,Word,Trading,Formatting,Agent_B,False,48.65,Incomplete Output,39.28,1878,2
+TASK_0123,2024-01-06 03:00:00,Financial Analysis,JSON,Asset Management,Formatting,Agent_A,True,87.31,,74.55,3411,2
+TASK_0124,2024-01-06 04:00:00,Financial Analysis,Excel,Investment Banking,Accuracy,Agent_B,False,37.56,Hallucination,48.32,3180,4
+TASK_0125,2024-01-06 05:00:00,Risk Assessment,PDF,Trading,Formatting,Agent_B,True,86.36,,44.97,12,3
+TASK_0126,2024-01-06 06:00:00,Market Research,Word,Trading,Accuracy,Agent_A,False,43.0,Format Error,41.26,2692,9
+TASK_0127,2024-01-06 07:00:00,Report Generation,PDF,Retail Banking,Compliance,Agent_B,False,54.88,Format Error,65.1,993,6
+TASK_0128,2024-01-06 08:00:00,Report Generation,Word,Retail Banking,Completeness,Agent_B,False,45.65,Format Error,40.3,2755,3
+TASK_0129,2024-01-06 09:00:00,Risk Assessment,CSV,Trading,Timeliness,Agent_A,False,53.86,Hallucination,41.09,1714,9
+TASK_0130,2024-01-06 10:00:00,Compliance Check,Excel,Asset Management,Formatting,Agent_B,True,93.32,,29.05,4531,10
+TASK_0131,2024-01-06 11:00:00,Report Generation,Word,Risk Management,Completeness,Agent_B,False,41.61,Timeout,30.03,3127,1
+TASK_0132,2024-01-06 12:00:00,Financial Analysis,PDF,Retail Banking,Compliance,Agent_A,False,49.0,Missing Data,60.99,1257,2
+TASK_0133,2024-01-06 13:00:00,Data Extraction,JSON,Risk Management,Timeliness,Agent_A,True,89.15,,23.75,4836,1
+TASK_0134,2024-01-06 14:00:00,Data Extraction,PDF,Retail Banking,Data Quality,Agent_A,True,100.0,,37.6,2438,7
+TASK_0135,2024-01-06 15:00:00,Compliance Check,CSV,Investment Banking,Data Quality,Agent_C,True,90.86,,40.8,3619,2
+TASK_0136,2024-01-06 16:00:00,Market Research,Excel,Trading,Compliance,Agent_A,True,85.71,,41.66,2854,4
+TASK_0137,2024-01-06 17:00:00,Risk Assessment,JSON,Risk Management,Formatting,Agent_C,False,51.46,Timeout,32.43,4036,4
+TASK_0138,2024-01-06 18:00:00,Market Research,CSV,Investment Banking,Timeliness,Agent_C,True,94.31,,20.71,3243,3
+TASK_0139,2024-01-06 19:00:00,Financial Analysis,PDF,Asset Management,Completeness,Agent_C,False,26.76,Hallucination,66.54,3686,5
+TASK_0140,2024-01-06 20:00:00,Report Generation,Excel,Asset Management,Formatting,Agent_A,True,94.99,,34.91,3234,7
+TASK_0141,2024-01-06 21:00:00,Financial Analysis,JSON,Asset Management,Compliance,Agent_A,True,79.07,,49.86,126,2
+TASK_0142,2024-01-06 22:00:00,Report Generation,Word,Investment Banking,Timeliness,Agent_B,False,49.93,Incomplete Output,29.28,1577,9
+TASK_0143,2024-01-06 23:00:00,Financial Analysis,JSON,Risk Management,Accuracy,Agent_C,True,82.89,,45.97,2946,6
+TASK_0144,2024-01-07 00:00:00,Market Research,JSON,Asset Management,Accuracy,Agent_B,False,60.35,Incomplete Output,30.92,927,7
+TASK_0145,2024-01-07 01:00:00,Risk Assessment,Excel,Risk Management,Completeness,Agent_B,False,46.53,Format Error,27.26,326,3
+TASK_0146,2024-01-07 02:00:00,Report Generation,PDF,Risk Management,Accuracy,Agent_C,False,50.58,Missing Data,43.28,3399,4
+TASK_0147,2024-01-07 03:00:00,Market Research,CSV,Insurance,Compliance,Agent_B,False,76.13,Hallucination,23.11,4979,2
+TASK_0148,2024-01-07 04:00:00,Market Research,JSON,Asset Management,Timeliness,Agent_A,False,29.53,Timeout,24.71,4800,3
+TASK_0149,2024-01-07 05:00:00,Data Extraction,Excel,Risk Management,Completeness,Agent_C,True,75.98,,35.64,4140,6
+TASK_0150,2024-01-07 06:00:00,Financial Analysis,JSON,Investment Banking,Data Quality,Agent_A,False,37.75,Logic Error,65.74,2789,4
+TASK_0151,2024-01-07 07:00:00,Data Extraction,Excel,Investment Banking,Formatting,Agent_A,True,84.16,,47.81,2635,2
+TASK_0152,2024-01-07 08:00:00,Data Extraction,Excel,Insurance,Formatting,Agent_B,False,52.99,Timeout,17.46,2968,1
+TASK_0153,2024-01-07 09:00:00,Report Generation,Excel,Asset Management,Data Quality,Agent_C,True,86.85,,6.75,2350,5
+TASK_0154,2024-01-07 10:00:00,Market Research,Word,Investment Banking,Data Quality,Agent_B,False,56.58,Hallucination,1.51,3165,2
+TASK_0155,2024-01-07 11:00:00,Market Research,PDF,Insurance,Accuracy,Agent_A,True,98.73,,60.38,4406,7
+TASK_0156,2024-01-07 12:00:00,Report Generation,Excel,Insurance,Data Quality,Agent_B,True,100.0,,24.1,3442,1
+TASK_0157,2024-01-07 13:00:00,Compliance Check,JSON,Insurance,Compliance,Agent_A,True,74.63,,14.87,3188,5
+TASK_0158,2024-01-07 14:00:00,Compliance Check,JSON,Trading,Accuracy,Agent_A,True,93.76,,28.39,1935,4
+TASK_0159,2024-01-07 15:00:00,Risk Assessment,Excel,Investment Banking,Timeliness,Agent_B,True,83.95,,19.65,3838,5
+TASK_0160,2024-01-07 16:00:00,Financial Analysis,PDF,Insurance,Data Quality,Agent_B,True,100.0,,62.87,135,2
+TASK_0161,2024-01-07 17:00:00,Financial Analysis,Excel,Trading,Accuracy,Agent_C,True,68.19,,79.38,3933,7
+TASK_0162,2024-01-07 18:00:00,Market Research,Word,Asset Management,Completeness,Agent_B,True,81.84,,25.73,1024,8
+TASK_0163,2024-01-07 19:00:00,Compliance Check,Word,Risk Management,Completeness,Agent_A,False,47.26,Missing Data,33.65,4059,1
+TASK_0164,2024-01-07 20:00:00,Risk Assessment,PDF,Asset Management,Formatting,Agent_A,False,28.85,Incomplete Output,51.68,3134,5
+TASK_0165,2024-01-07 21:00:00,Financial Analysis,Excel,Risk Management,Compliance,Agent_B,False,60.08,Hallucination,47.48,3838,9
+TASK_0166,2024-01-07 22:00:00,Report Generation,JSON,Retail Banking,Timeliness,Agent_B,True,93.38,,35.7,1010,7
+TASK_0167,2024-01-07 23:00:00,Report Generation,Word,Insurance,Accuracy,Agent_B,True,74.78,,13.56,926,3
+TASK_0168,2024-01-08 00:00:00,Data Extraction,Word,Investment Banking,Accuracy,Agent_A,True,82.58,,29.65,3348,3
+TASK_0169,2024-01-08 01:00:00,Market Research,Excel,Retail Banking,Data Quality,Agent_A,True,85.47,,41.26,2511,5
+TASK_0170,2024-01-08 02:00:00,Compliance Check,Excel,Investment Banking,Compliance,Agent_A,True,93.18,,54.4,2840,7
+TASK_0171,2024-01-08 03:00:00,Market Research,Excel,Asset Management,Formatting,Agent_C,True,91.07,,32.81,724,3
+TASK_0172,2024-01-08 04:00:00,Data Extraction,Word,Trading,Data Quality,Agent_C,True,71.46,,29.02,3645,3
+TASK_0173,2024-01-08 05:00:00,Risk Assessment,JSON,Risk Management,Completeness,Agent_B,True,77.14,,27.75,3540,7
+TASK_0174,2024-01-08 06:00:00,Data Extraction,Excel,Trading,Accuracy,Agent_B,True,83.85,,37.96,3967,7
+TASK_0175,2024-01-08 07:00:00,Market Research,PDF,Asset Management,Timeliness,Agent_B,True,100.0,,49.13,3107,9
+TASK_0176,2024-01-08 08:00:00,Risk Assessment,Excel,Investment Banking,Timeliness,Agent_B,False,26.34,Timeout,23.07,4155,8
+TASK_0177,2024-01-08 09:00:00,Report Generation,JSON,Asset Management,Completeness,Agent_A,True,78.32,,51.45,4686,1
+TASK_0178,2024-01-08 10:00:00,Report Generation,JSON,Retail Banking,Accuracy,Agent_C,True,80.62,,20.62,2476,7
+TASK_0179,2024-01-08 11:00:00,Report Generation,Excel,Investment Banking,Data Quality,Agent_A,True,87.52,,29.98,4368,5
+TASK_0180,2024-01-08 12:00:00,Risk Assessment,CSV,Retail Banking,Data Quality,Agent_A,True,89.55,,46.28,1200,4
+TASK_0181,2024-01-08 13:00:00,Compliance Check,PDF,Asset Management,Formatting,Agent_A,True,79.81,,32.76,717,1
+TASK_0182,2024-01-08 14:00:00,Data Extraction,Excel,Asset Management,Timeliness,Agent_C,True,90.05,,14.43,76,6
+TASK_0183,2024-01-08 15:00:00,Data Extraction,Word,Retail Banking,Formatting,Agent_B,True,98.38,,34.19,4221,8
+TASK_0184,2024-01-08 16:00:00,Market Research,JSON,Retail Banking,Compliance,Agent_A,True,77.07,,36.29,217,10
+TASK_0185,2024-01-08 17:00:00,Market Research,PDF,Asset Management,Accuracy,Agent_C,False,36.99,Incomplete Output,30.93,1550,4
+TASK_0186,2024-01-08 18:00:00,Data Extraction,PDF,Investment Banking,Data Quality,Agent_A,True,91.51,,38.14,4905,1
+TASK_0187,2024-01-08 19:00:00,Compliance Check,JSON,Risk Management,Compliance,Agent_B,True,82.67,,25.92,1611,9
+TASK_0188,2024-01-08 20:00:00,Compliance Check,Excel,Insurance,Accuracy,Agent_A,True,80.59,,38.13,1699,4
+TASK_0189,2024-01-08 21:00:00,Risk Assessment,CSV,Risk Management,Formatting,Agent_C,False,39.23,Hallucination,34.64,4147,6
+TASK_0190,2024-01-08 22:00:00,Risk Assessment,Word,Insurance,Data Quality,Agent_B,False,53.53,Logic Error,36.0,82,5
+TASK_0191,2024-01-08 23:00:00,Report Generation,Excel,Insurance,Completeness,Agent_C,True,85.4,,31.7,1995,9
+TASK_0192,2024-01-09 00:00:00,Compliance Check,PDF,Asset Management,Data Quality,Agent_A,True,79.8,,50.3,2956,3
+TASK_0193,2024-01-09 01:00:00,Financial Analysis,PDF,Trading,Timeliness,Agent_B,True,85.45,,70.3,4233,4
+TASK_0194,2024-01-09 02:00:00,Risk Assessment,Word,Asset Management,Data Quality,Agent_A,True,71.75,,42.56,1963,10
+TASK_0195,2024-01-09 03:00:00,Financial Analysis,Excel,Risk Management,Formatting,Agent_B,True,80.49,,45.89,1189,3
+TASK_0196,2024-01-09 04:00:00,Data Extraction,PDF,Asset Management,Compliance,Agent_C,True,79.14,,37.98,3302,4
+TASK_0197,2024-01-09 05:00:00,Data Extraction,JSON,Risk Management,Completeness,Agent_C,False,70.72,Format Error,19.41,2149,6
+TASK_0198,2024-01-09 06:00:00,Market Research,Word,Trading,Data Quality,Agent_A,True,80.39,,4.09,2303,6
+TASK_0199,2024-01-09 07:00:00,Compliance Check,Excel,Retail Banking,Timeliness,Agent_A,True,88.33,,40.76,2395,5
+TASK_0200,2024-01-09 08:00:00,Compliance Check,JSON,Investment Banking,Formatting,Agent_A,True,94.57,,28.41,4288,5
+TASK_0201,2024-01-09 09:00:00,Risk Assessment,JSON,Retail Banking,Compliance,Agent_B,True,74.02,,13.86,3503,10
+TASK_0202,2024-01-09 10:00:00,Compliance Check,Excel,Trading,Accuracy,Agent_A,True,88.72,,31.67,581,1
+TASK_0203,2024-01-09 11:00:00,Risk Assessment,Excel,Retail Banking,Compliance,Agent_A,False,8.52,Incomplete Output,29.03,2257,1
+TASK_0204,2024-01-09 12:00:00,Financial Analysis,JSON,Trading,Formatting,Agent_A,False,75.2,Timeout,51.37,3281,9
+TASK_0205,2024-01-09 13:00:00,Report Generation,PDF,Trading,Formatting,Agent_C,True,74.22,,35.28,1684,4
+TASK_0206,2024-01-09 14:00:00,Report Generation,CSV,Asset Management,Formatting,Agent_C,True,95.04,,31.88,2577,10
+TASK_0207,2024-01-09 15:00:00,Market Research,JSON,Investment Banking,Accuracy,Agent_A,True,82.42,,27.49,1623,9
+TASK_0208,2024-01-09 16:00:00,Financial Analysis,PDF,Retail Banking,Data Quality,Agent_C,False,35.35,Missing Data,74.28,2431,5
+TASK_0209,2024-01-09 17:00:00,Data Extraction,Excel,Insurance,Completeness,Agent_C,True,78.37,,32.02,4593,10
+TASK_0210,2024-01-09 18:00:00,Financial Analysis,Excel,Risk Management,Compliance,Agent_B,False,44.31,Hallucination,70.43,3998,3
+TASK_0211,2024-01-09 19:00:00,Risk Assessment,PDF,Asset Management,Accuracy,Agent_C,True,83.01,,61.07,311,8
+TASK_0212,2024-01-09 20:00:00,Market Research,JSON,Insurance,Data Quality,Agent_B,False,43.58,Logic Error,29.14,292,2
+TASK_0213,2024-01-09 21:00:00,Report Generation,JSON,Trading,Data Quality,Agent_C,False,54.9,Incomplete Output,44.35,2076,7
+TASK_0214,2024-01-09 22:00:00,Compliance Check,JSON,Investment Banking,Timeliness,Agent_C,True,95.61,,32.47,1294,3
+TASK_0215,2024-01-09 23:00:00,Financial Analysis,JSON,Insurance,Completeness,Agent_B,True,98.36,,53.95,932,2
+TASK_0216,2024-01-10 00:00:00,Financial Analysis,Word,Investment Banking,Compliance,Agent_B,False,49.69,Incomplete Output,53.19,1047,9
+TASK_0217,2024-01-10 01:00:00,Risk Assessment,Word,Investment Banking,Compliance,Agent_C,False,43.41,Format Error,42.22,1134,10
+TASK_0218,2024-01-10 02:00:00,Data Extraction,Word,Asset Management,Compliance,Agent_B,False,19.52,Timeout,44.57,4927,8
+TASK_0219,2024-01-10 03:00:00,Compliance Check,Excel,Risk Management,Data Quality,Agent_A,True,92.84,,27.44,3302,3
+TASK_0220,2024-01-10 04:00:00,Compliance Check,Excel,Asset Management,Compliance,Agent_B,True,97.85,,45.62,3269,3
+TASK_0221,2024-01-10 05:00:00,Financial Analysis,CSV,Risk Management,Timeliness,Agent_B,False,53.3,Format Error,45.06,441,4
+TASK_0222,2024-01-10 06:00:00,Market Research,PDF,Investment Banking,Completeness,Agent_C,True,97.11,,51.31,1029,6
+TASK_0223,2024-01-10 07:00:00,Compliance Check,PDF,Investment Banking,Data Quality,Agent_C,True,94.18,,41.96,84,7
+TASK_0224,2024-01-10 08:00:00,Financial Analysis,Excel,Trading,Accuracy,Agent_A,False,52.68,Incomplete Output,41.45,2767,1
+TASK_0225,2024-01-10 09:00:00,Report Generation,Word,Insurance,Timeliness,Agent_C,True,93.26,,28.05,2013,1
+TASK_0226,2024-01-10 10:00:00,Compliance Check,Excel,Trading,Compliance,Agent_B,True,85.8,,31.46,2669,6
+TASK_0227,2024-01-10 11:00:00,Financial Analysis,JSON,Asset Management,Compliance,Agent_A,False,50.3,Incomplete Output,51.22,1441,10
+TASK_0228,2024-01-10 12:00:00,Market Research,JSON,Insurance,Compliance,Agent_B,True,92.31,,21.97,1651,9
+TASK_0229,2024-01-10 13:00:00,Compliance Check,JSON,Investment Banking,Timeliness,Agent_C,True,65.61,,38.84,3151,2
+TASK_0230,2024-01-10 14:00:00,Report Generation,JSON,Trading,Completeness,Agent_B,True,92.08,,20.81,2371,5
+TASK_0231,2024-01-10 15:00:00,Risk Assessment,Word,Insurance,Completeness,Agent_A,True,88.73,,29.64,4489,9
+TASK_0232,2024-01-10 16:00:00,Compliance Check,PDF,Investment Banking,Completeness,Agent_A,True,90.06,,40.5,3072,1
+TASK_0233,2024-01-10 17:00:00,Financial Analysis,Word,Trading,Completeness,Agent_B,True,86.91,,64.29,1643,6
+TASK_0234,2024-01-10 18:00:00,Market Research,Excel,Investment Banking,Completeness,Agent_A,True,76.01,,36.5,107,3
+TASK_0235,2024-01-10 19:00:00,Compliance Check,JSON,Risk Management,Compliance,Agent_C,True,79.83,,22.01,4637,10
+TASK_0236,2024-01-10 20:00:00,Data Extraction,JSON,Risk Management,Timeliness,Agent_C,False,39.59,Hallucination,35.11,2115,10
+TASK_0237,2024-01-10 21:00:00,Financial Analysis,Excel,Investment Banking,Data Quality,Agent_C,False,42.29,Incomplete Output,81.93,1824,9
+TASK_0238,2024-01-10 22:00:00,Report Generation,Excel,Insurance,Formatting,Agent_A,False,46.7,Logic Error,15.62,485,9
+TASK_0239,2024-01-10 23:00:00,Data Extraction,Word,Trading,Accuracy,Agent_C,True,85.39,,39.57,4573,6
+TASK_0240,2024-01-11 00:00:00,Data Extraction,Excel,Insurance,Timeliness,Agent_C,False,45.41,Logic Error,17.17,3210,7
+TASK_0241,2024-01-11 01:00:00,Compliance Check,JSON,Insurance,Timeliness,Agent_B,True,85.19,,44.12,584,7
+TASK_0242,2024-01-11 02:00:00,Compliance Check,Word,Risk Management,Timeliness,Agent_B,True,83.5,,39.86,256,5
+TASK_0243,2024-01-11 03:00:00,Financial Analysis,CSV,Investment Banking,Compliance,Agent_A,False,37.14,Format Error,37.43,3557,9
+TASK_0244,2024-01-11 04:00:00,Data Extraction,Excel,Risk Management,Formatting,Agent_A,True,83.68,,43.06,2782,8
+TASK_0245,2024-01-11 05:00:00,Risk Assessment,CSV,Asset Management,Compliance,Agent_B,True,91.72,,35.47,199,1
+TASK_0246,2024-01-11 06:00:00,Compliance Check,CSV,Asset Management,Completeness,Agent_A,True,88.58,,17.86,2336,6
+TASK_0247,2024-01-11 07:00:00,Financial Analysis,Word,Asset Management,Formatting,Agent_B,False,31.44,Missing Data,53.24,1099,3
+TASK_0248,2024-01-11 08:00:00,Data Extraction,PDF,Asset Management,Compliance,Agent_A,False,58.07,Logic Error,31.54,451,9
+TASK_0249,2024-01-11 09:00:00,Market Research,Word,Insurance,Accuracy,Agent_A,True,87.74,,32.2,4656,9
+TASK_0250,2024-01-11 10:00:00,Report Generation,JSON,Trading,Completeness,Agent_C,False,55.09,Format Error,49.0,1387,8
+TASK_0251,2024-01-11 11:00:00,Market Research,JSON,Trading,Data Quality,Agent_C,True,84.22,,44.12,1914,9
+TASK_0252,2024-01-11 12:00:00,Market Research,Excel,Risk Management,Data Quality,Agent_A,True,86.57,,33.17,2341,4
+TASK_0253,2024-01-11 13:00:00,Compliance Check,PDF,Insurance,Compliance,Agent_C,False,33.35,Incomplete Output,65.91,1470,4
+TASK_0254,2024-01-11 14:00:00,Financial Analysis,PDF,Investment Banking,Compliance,Agent_A,False,54.83,Format Error,80.28,77,8
+TASK_0255,2024-01-11 15:00:00,Risk Assessment,PDF,Trading,Data Quality,Agent_B,False,56.01,Incomplete Output,38.51,2325,3
+TASK_0256,2024-01-11 16:00:00,Report Generation,Excel,Trading,Timeliness,Agent_A,True,84.49,,14.78,2054,9
+TASK_0257,2024-01-11 17:00:00,Compliance Check,PDF,Asset Management,Formatting,Agent_A,True,80.86,,47.41,3669,9
+TASK_0258,2024-01-11 18:00:00,Report Generation,Excel,Asset Management,Timeliness,Agent_B,True,94.77,,47.5,3750,3
+TASK_0259,2024-01-11 19:00:00,Data Extraction,JSON,Asset Management,Compliance,Agent_B,False,41.89,Hallucination,12.5,1802,8
+TASK_0260,2024-01-11 20:00:00,Market Research,PDF,Retail Banking,Accuracy,Agent_A,True,83.24,,24.32,151,3
+TASK_0261,2024-01-11 21:00:00,Compliance Check,JSON,Investment Banking,Timeliness,Agent_A,True,93.68,,24.22,1978,10
+TASK_0262,2024-01-11 22:00:00,Report Generation,PDF,Investment Banking,Timeliness,Agent_A,False,40.21,Hallucination,37.04,4502,3
+TASK_0263,2024-01-11 23:00:00,Report Generation,Word,Risk Management,Timeliness,Agent_A,True,89.63,,33.48,3014,5
+TASK_0264,2024-01-12 00:00:00,Compliance Check,JSON,Trading,Accuracy,Agent_A,True,91.49,,35.35,3770,4
+TASK_0265,2024-01-12 01:00:00,Risk Assessment,Excel,Retail Banking,Compliance,Agent_B,False,34.95,Logic Error,32.67,945,4
+TASK_0266,2024-01-12 02:00:00,Financial Analysis,PDF,Asset Management,Completeness,Agent_C,True,86.35,,69.42,4210,10
+TASK_0267,2024-01-12 03:00:00,Risk Assessment,CSV,Insurance,Timeliness,Agent_B,True,82.59,,26.83,2511,5
+TASK_0268,2024-01-12 04:00:00,Risk Assessment,Word,Risk Management,Formatting,Agent_B,True,84.73,,27.92,2476,1
+TASK_0269,2024-01-12 05:00:00,Compliance Check,Excel,Trading,Timeliness,Agent_B,True,95.13,,21.34,1829,5
+TASK_0270,2024-01-12 06:00:00,Market Research,CSV,Retail Banking,Compliance,Agent_C,True,93.94,,31.31,3269,2
+TASK_0271,2024-01-12 07:00:00,Report Generation,CSV,Asset Management,Compliance,Agent_C,False,43.83,Missing Data,26.54,2990,7
+TASK_0272,2024-01-12 08:00:00,Data Extraction,Word,Investment Banking,Accuracy,Agent_C,True,85.4,,28.39,2021,3
+TASK_0273,2024-01-12 09:00:00,Report Generation,CSV,Risk Management,Formatting,Agent_A,True,85.86,,41.97,3769,4
+TASK_0274,2024-01-12 10:00:00,Data Extraction,PDF,Asset Management,Accuracy,Agent_A,False,28.28,Missing Data,45.98,1188,6
+TASK_0275,2024-01-12 11:00:00,Report Generation,CSV,Retail Banking,Formatting,Agent_B,True,84.68,,18.21,4019,5
+TASK_0276,2024-01-12 12:00:00,Risk Assessment,Word,Trading,Completeness,Agent_A,True,86.01,,29.86,2426,4
+TASK_0277,2024-01-12 13:00:00,Financial Analysis,Word,Risk Management,Compliance,Agent_A,True,98.86,,72.31,4926,7
+TASK_0278,2024-01-12 14:00:00,Report Generation,CSV,Retail Banking,Completeness,Agent_A,True,83.65,,25.28,1566,7
+TASK_0279,2024-01-12 15:00:00,Data Extraction,CSV,Investment Banking,Compliance,Agent_C,True,100.0,,20.81,2196,4
+TASK_0280,2024-01-12 16:00:00,Report Generation,Word,Investment Banking,Formatting,Agent_B,True,100.0,,41.27,4270,7
+TASK_0281,2024-01-12 17:00:00,Compliance Check,JSON,Trading,Accuracy,Agent_A,True,87.03,,34.68,1718,6
+TASK_0282,2024-01-12 18:00:00,Compliance Check,CSV,Asset Management,Timeliness,Agent_A,True,80.81,,29.63,892,3
+TASK_0283,2024-01-12 19:00:00,Risk Assessment,JSON,Asset Management,Compliance,Agent_B,True,73.42,,21.57,3498,8
+TASK_0284,2024-01-12 20:00:00,Report Generation,CSV,Investment Banking,Formatting,Agent_B,False,43.4,Logic Error,39.55,1980,4
+TASK_0285,2024-01-12 21:00:00,Compliance Check,CSV,Investment Banking,Compliance,Agent_A,True,89.75,,0.6,1734,7
+TASK_0286,2024-01-12 22:00:00,Risk Assessment,Word,Risk Management,Formatting,Agent_C,False,38.85,Logic Error,22.53,3762,8
+TASK_0287,2024-01-12 23:00:00,Report Generation,PDF,Risk Management,Formatting,Agent_C,True,94.67,,30.6,2968,5
+TASK_0288,2024-01-13 00:00:00,Compliance Check,Word,Asset Management,Accuracy,Agent_C,False,35.71,Hallucination,33.13,4907,4
+TASK_0289,2024-01-13 01:00:00,Market Research,CSV,Insurance,Formatting,Agent_B,False,45.45,Missing Data,36.09,2432,2
+TASK_0290,2024-01-13 02:00:00,Risk Assessment,JSON,Risk Management,Compliance,Agent_B,True,72.14,,22.37,2565,2
+TASK_0291,2024-01-13 03:00:00,Report Generation,CSV,Risk Management,Timeliness,Agent_C,True,90.08,,17.61,446,5
+TASK_0292,2024-01-13 04:00:00,Report Generation,Word,Insurance,Accuracy,Agent_A,True,85.06,,40.04,1599,4
+TASK_0293,2024-01-13 05:00:00,Data Extraction,Excel,Risk Management,Completeness,Agent_B,False,48.55,Logic Error,43.7,1238,7
+TASK_0294,2024-01-13 06:00:00,Risk Assessment,JSON,Risk Management,Completeness,Agent_B,False,30.54,Hallucination,39.36,1274,10
+TASK_0295,2024-01-13 07:00:00,Compliance Check,Excel,Retail Banking,Data Quality,Agent_B,False,30.49,Incomplete Output,54.38,898,9
+TASK_0296,2024-01-13 08:00:00,Financial Analysis,CSV,Insurance,Accuracy,Agent_C,False,57.88,Format Error,51.51,2198,3
+TASK_0297,2024-01-13 09:00:00,Financial Analysis,JSON,Insurance,Timeliness,Agent_A,True,65.49,,48.66,2020,9
+TASK_0298,2024-01-13 10:00:00,Risk Assessment,Word,Trading,Formatting,Agent_A,True,79.73,,26.06,3533,9
+TASK_0299,2024-01-13 11:00:00,Market Research,PDF,Trading,Compliance,Agent_C,False,8.62,Hallucination,44.7,1388,2
+TASK_0300,2024-01-13 12:00:00,Market Research,CSV,Asset Management,Accuracy,Agent_C,False,63.53,Missing Data,26.8,4754,9
+TASK_0301,2024-01-13 13:00:00,Market Research,CSV,Risk Management,Data Quality,Agent_A,True,90.38,,28.36,949,5
+TASK_0302,2024-01-13 14:00:00,Data Extraction,PDF,Asset Management,Timeliness,Agent_C,True,71.05,,46.19,2110,10
+TASK_0303,2024-01-13 15:00:00,Market Research,Word,Trading,Data Quality,Agent_B,True,83.17,,20.06,396,6
+TASK_0304,2024-01-13 16:00:00,Financial Analysis,JSON,Risk Management,Compliance,Agent_A,True,85.18,,55.47,2287,1
+TASK_0305,2024-01-13 17:00:00,Data Extraction,JSON,Investment Banking,Compliance,Agent_B,False,33.55,Incomplete Output,31.36,2802,2
+TASK_0306,2024-01-13 18:00:00,Compliance Check,Word,Investment Banking,Accuracy,Agent_C,True,75.09,,15.32,729,5
+TASK_0307,2024-01-13 19:00:00,Data Extraction,Word,Asset Management,Formatting,Agent_A,True,87.97,,41.53,3585,8
+TASK_0308,2024-01-13 20:00:00,Compliance Check,CSV,Asset Management,Formatting,Agent_A,True,84.17,,13.57,1112,7
+TASK_0309,2024-01-13 21:00:00,Data Extraction,Excel,Asset Management,Completeness,Agent_A,True,100.0,,34.33,3412,6
+TASK_0310,2024-01-13 22:00:00,Financial Analysis,PDF,Insurance,Completeness,Agent_C,True,95.25,,70.58,470,5
+TASK_0311,2024-01-13 23:00:00,Data Extraction,JSON,Insurance,Formatting,Agent_A,True,83.13,,34.66,1733,9
+TASK_0312,2024-01-14 00:00:00,Financial Analysis,Excel,Retail Banking,Accuracy,Agent_B,True,78.32,,70.9,1706,2
+TASK_0313,2024-01-14 01:00:00,Market Research,CSV,Retail Banking,Timeliness,Agent_B,True,83.48,,26.43,2655,2
+TASK_0314,2024-01-14 02:00:00,Market Research,Excel,Risk Management,Timeliness,Agent_C,True,83.39,,17.68,3509,1
+TASK_0315,2024-01-14 03:00:00,Financial Analysis,CSV,Trading,Completeness,Agent_C,True,78.91,,53.1,4685,3
+TASK_0316,2024-01-14 04:00:00,Data Extraction,CSV,Retail Banking,Data Quality,Agent_A,True,91.59,,29.19,879,6
+TASK_0317,2024-01-14 05:00:00,Risk Assessment,Excel,Risk Management,Compliance,Agent_C,False,65.42,Format Error,20.05,254,2
+TASK_0318,2024-01-14 06:00:00,Risk Assessment,Word,Retail Banking,Data Quality,Agent_C,True,96.89,,27.79,3677,8
+TASK_0319,2024-01-14 07:00:00,Risk Assessment,Word,Risk Management,Compliance,Agent_A,False,36.76,Logic Error,42.7,4019,5
+TASK_0320,2024-01-14 08:00:00,Risk Assessment,JSON,Retail Banking,Formatting,Agent_B,True,84.84,,25.13,1686,10
+TASK_0321,2024-01-14 09:00:00,Data Extraction,PDF,Risk Management,Formatting,Agent_B,False,24.84,Timeout,28.97,1639,3
+TASK_0322,2024-01-14 10:00:00,Report Generation,PDF,Insurance,Completeness,Agent_B,False,17.4,Hallucination,61.1,2171,1
+TASK_0323,2024-01-14 11:00:00,Risk Assessment,Excel,Trading,Compliance,Agent_C,True,81.74,,36.86,2790,4
+TASK_0324,2024-01-14 12:00:00,Compliance Check,CSV,Insurance,Timeliness,Agent_C,True,83.55,,31.73,2048,7
+TASK_0325,2024-01-14 13:00:00,Risk Assessment,Word,Trading,Data Quality,Agent_C,True,73.39,,29.88,4326,8
+TASK_0326,2024-01-14 14:00:00,Financial Analysis,CSV,Risk Management,Compliance,Agent_B,True,64.17,,51.99,3364,8
+TASK_0327,2024-01-14 15:00:00,Compliance Check,JSON,Retail Banking,Timeliness,Agent_B,False,1.13,Timeout,42.48,288,5
+TASK_0328,2024-01-14 16:00:00,Market Research,Word,Risk Management,Accuracy,Agent_A,True,83.61,,24.48,3906,10
+TASK_0329,2024-01-14 17:00:00,Market Research,Word,Trading,Compliance,Agent_C,False,61.6,Logic Error,20.93,2808,9
+TASK_0330,2024-01-14 18:00:00,Compliance Check,Word,Retail Banking,Completeness,Agent_B,True,91.91,,35.8,215,9
+TASK_0331,2024-01-14 19:00:00,Market Research,CSV,Risk Management,Compliance,Agent_C,True,87.03,,45.69,2001,1
+TASK_0332,2024-01-14 20:00:00,Report Generation,Excel,Retail Banking,Formatting,Agent_B,False,53.53,Missing Data,31.05,2783,9
+TASK_0333,2024-01-14 21:00:00,Financial Analysis,JSON,Asset Management,Accuracy,Agent_C,False,45.5,Hallucination,40.44,2620,4
+TASK_0334,2024-01-14 22:00:00,Financial Analysis,PDF,Retail Banking,Formatting,Agent_B,False,61.31,Incomplete Output,74.24,3674,2
+TASK_0335,2024-01-14 23:00:00,Report Generation,PDF,Trading,Accuracy,Agent_A,True,77.46,,49.54,3418,1
+TASK_0336,2024-01-15 00:00:00,Data Extraction,Word,Investment Banking,Accuracy,Agent_C,True,65.52,,31.44,378,3
+TASK_0337,2024-01-15 01:00:00,Report Generation,JSON,Insurance,Data Quality,Agent_B,True,85.43,,59.23,1002,1
+TASK_0338,2024-01-15 02:00:00,Report Generation,Word,Investment Banking,Timeliness,Agent_C,True,88.36,,26.97,3741,4
+TASK_0339,2024-01-15 03:00:00,Data Extraction,Excel,Risk Management,Formatting,Agent_A,True,90.47,,16.34,4556,2
+TASK_0340,2024-01-15 04:00:00,Report Generation,CSV,Retail Banking,Compliance,Agent_A,True,76.98,,18.98,149,1
+TASK_0341,2024-01-15 05:00:00,Market Research,PDF,Trading,Accuracy,Agent_B,False,34.07,Missing Data,32.22,3961,9
+TASK_0342,2024-01-15 06:00:00,Report Generation,Word,Insurance,Completeness,Agent_B,True,86.28,,35.02,3775,7
+TASK_0343,2024-01-15 07:00:00,Market Research,CSV,Risk Management,Timeliness,Agent_A,True,84.78,,27.33,211,1
+TASK_0344,2024-01-15 08:00:00,Risk Assessment,Excel,Trading,Compliance,Agent_B,True,87.73,,17.12,3812,1
+TASK_0345,2024-01-15 09:00:00,Data Extraction,CSV,Insurance,Completeness,Agent_B,True,77.63,,19.96,2643,6
+TASK_0346,2024-01-15 10:00:00,Market Research,Excel,Insurance,Formatting,Agent_A,False,43.25,Logic Error,22.77,4508,4
+TASK_0347,2024-01-15 11:00:00,Report Generation,Excel,Risk Management,Timeliness,Agent_B,True,93.06,,9.94,4178,1
+TASK_0348,2024-01-15 12:00:00,Market Research,PDF,Insurance,Compliance,Agent_C,False,41.78,Incomplete Output,47.77,2925,2
+TASK_0349,2024-01-15 13:00:00,Market Research,PDF,Trading,Compliance,Agent_A,True,72.75,,50.14,92,1
+TASK_0350,2024-01-15 14:00:00,Risk Assessment,JSON,Investment Banking,Timeliness,Agent_B,True,78.08,,28.59,1374,9
+TASK_0351,2024-01-15 15:00:00,Data Extraction,JSON,Trading,Formatting,Agent_A,True,100.0,,35.4,4027,4
+TASK_0352,2024-01-15 16:00:00,Compliance Check,PDF,Trading,Compliance,Agent_C,True,77.22,,26.23,3911,10
+TASK_0353,2024-01-15 17:00:00,Financial Analysis,CSV,Retail Banking,Data Quality,Agent_C,False,52.5,Format Error,54.72,2376,8
+TASK_0354,2024-01-15 18:00:00,Market Research,CSV,Retail Banking,Data Quality,Agent_A,True,81.85,,44.7,2566,6
+TASK_0355,2024-01-15 19:00:00,Report Generation,PDF,Investment Banking,Compliance,Agent_A,False,61.6,Timeout,51.41,2827,10
+TASK_0356,2024-01-15 20:00:00,Report Generation,CSV,Asset Management,Data Quality,Agent_B,True,75.77,,31.14,1368,2
+TASK_0357,2024-01-15 21:00:00,Risk Assessment,CSV,Retail Banking,Accuracy,Agent_A,True,79.48,,30.04,4927,8
+TASK_0358,2024-01-15 22:00:00,Data Extraction,JSON,Investment Banking,Formatting,Agent_B,True,90.9,,28.41,934,5
+TASK_0359,2024-01-15 23:00:00,Financial Analysis,Excel,Asset Management,Timeliness,Agent_B,False,53.56,Format Error,59.68,4174,1
+TASK_0360,2024-01-16 00:00:00,Data Extraction,JSON,Asset Management,Formatting,Agent_B,True,74.19,,16.78,3937,9
+TASK_0361,2024-01-16 01:00:00,Compliance Check,Word,Asset Management,Data Quality,Agent_B,True,77.79,,22.33,1246,9
+TASK_0362,2024-01-16 02:00:00,Market Research,CSV,Trading,Formatting,Agent_C,True,88.34,,38.47,2522,7
+TASK_0363,2024-01-16 03:00:00,Report Generation,PDF,Risk Management,Accuracy,Agent_A,True,97.76,,38.61,4600,7
+TASK_0364,2024-01-16 04:00:00,Compliance Check,PDF,Trading,Completeness,Agent_A,False,26.31,Hallucination,45.55,730,10
+TASK_0365,2024-01-16 05:00:00,Report Generation,Excel,Retail Banking,Compliance,Agent_C,True,100.0,,34.33,2263,7
+TASK_0366,2024-01-16 06:00:00,Market Research,CSV,Risk Management,Data Quality,Agent_C,True,72.31,,11.2,28,3
+TASK_0367,2024-01-16 07:00:00,Risk Assessment,Excel,Investment Banking,Timeliness,Agent_B,True,100.0,,43.84,4198,1
+TASK_0368,2024-01-16 08:00:00,Compliance Check,Word,Trading,Completeness,Agent_A,True,91.87,,27.65,826,7
+TASK_0369,2024-01-16 09:00:00,Compliance Check,PDF,Investment Banking,Data Quality,Agent_A,False,31.4,Timeout,62.09,3710,10
+TASK_0370,2024-01-16 10:00:00,Data Extraction,PDF,Risk Management,Compliance,Agent_A,True,87.98,,48.89,2482,3
+TASK_0371,2024-01-16 11:00:00,Data Extraction,CSV,Risk Management,Accuracy,Agent_C,True,87.67,,27.02,4534,3
+TASK_0372,2024-01-16 12:00:00,Report Generation,Word,Risk Management,Data Quality,Agent_A,False,44.36,Incomplete Output,30.58,2575,9
+TASK_0373,2024-01-16 13:00:00,Data Extraction,JSON,Asset Management,Accuracy,Agent_A,True,94.6,,25.08,2392,4
+TASK_0374,2024-01-16 14:00:00,Compliance Check,CSV,Retail Banking,Timeliness,Agent_C,True,74.97,,15.29,2631,4
+TASK_0375,2024-01-16 15:00:00,Report Generation,JSON,Asset Management,Formatting,Agent_B,True,83.53,,36.51,907,1
+TASK_0376,2024-01-16 16:00:00,Financial Analysis,JSON,Asset Management,Completeness,Agent_A,True,85.83,,44.21,259,10
+TASK_0377,2024-01-16 17:00:00,Compliance Check,Word,Risk Management,Completeness,Agent_A,True,90.35,,20.82,2628,7
+TASK_0378,2024-01-16 18:00:00,Data Extraction,PDF,Asset Management,Data Quality,Agent_A,True,90.11,,30.34,1822,10
+TASK_0379,2024-01-16 19:00:00,Data Extraction,Excel,Trading,Timeliness,Agent_B,False,33.77,Format Error,13.0,63,8
+TASK_0380,2024-01-16 20:00:00,Report Generation,PDF,Trading,Formatting,Agent_B,True,85.12,,54.02,3288,1
+TASK_0381,2024-01-16 21:00:00,Risk Assessment,Excel,Retail Banking,Compliance,Agent_C,False,61.63,Incomplete Output,35.97,3887,9
+TASK_0382,2024-01-16 22:00:00,Report Generation,CSV,Risk Management,Timeliness,Agent_A,True,83.83,,42.9,932,4
+TASK_0383,2024-01-16 23:00:00,Market Research,Excel,Trading,Compliance,Agent_C,False,54.98,Logic Error,36.97,213,1
+TASK_0384,2024-01-17 00:00:00,Data Extraction,PDF,Trading,Data Quality,Agent_B,True,92.84,,48.56,3769,6
+TASK_0385,2024-01-17 01:00:00,Financial Analysis,CSV,Trading,Timeliness,Agent_B,True,90.95,,55.9,4998,6
+TASK_0386,2024-01-17 02:00:00,Report Generation,JSON,Asset Management,Formatting,Agent_A,True,87.95,,33.16,4470,3
+TASK_0387,2024-01-17 03:00:00,Compliance Check,Word,Investment Banking,Formatting,Agent_C,True,87.67,,44.31,4613,5
+TASK_0388,2024-01-17 04:00:00,Report Generation,Excel,Investment Banking,Compliance,Agent_C,False,61.07,Timeout,50.2,3206,10
+TASK_0389,2024-01-17 05:00:00,Report Generation,PDF,Asset Management,Timeliness,Agent_A,False,71.53,Format Error,40.08,2268,7
+TASK_0390,2024-01-17 06:00:00,Report Generation,Excel,Asset Management,Timeliness,Agent_C,True,93.95,,35.49,3549,6
+TASK_0391,2024-01-17 07:00:00,Financial Analysis,CSV,Insurance,Timeliness,Agent_B,True,86.62,,56.52,3424,9
+TASK_0392,2024-01-17 08:00:00,Report Generation,PDF,Investment Banking,Data Quality,Agent_B,False,56.25,Hallucination,50.99,1688,8
+TASK_0393,2024-01-17 09:00:00,Data Extraction,Excel,Investment Banking,Timeliness,Agent_B,True,97.43,,38.54,4885,8
+TASK_0394,2024-01-17 10:00:00,Market Research,JSON,Risk Management,Data Quality,Agent_C,True,94.47,,33.0,3885,6
+TASK_0395,2024-01-17 11:00:00,Risk Assessment,CSV,Asset Management,Formatting,Agent_B,True,86.65,,37.38,951,7
+TASK_0396,2024-01-17 12:00:00,Compliance Check,CSV,Insurance,Timeliness,Agent_C,True,87.31,,30.75,1240,5
+TASK_0397,2024-01-17 13:00:00,Market Research,JSON,Asset Management,Timeliness,Agent_C,True,90.84,,33.15,934,3
+TASK_0398,2024-01-17 14:00:00,Market Research,CSV,Retail Banking,Completeness,Agent_C,True,83.59,,14.51,2785,10
+TASK_0399,2024-01-17 15:00:00,Data Extraction,Word,Asset Management,Formatting,Agent_A,True,84.51,,34.79,2113,7
+TASK_0400,2024-01-17 16:00:00,Report Generation,Word,Risk Management,Compliance,Agent_B,True,95.95,,18.61,4141,5
+TASK_0401,2024-01-17 17:00:00,Risk Assessment,JSON,Retail Banking,Data Quality,Agent_C,False,37.67,Format Error,27.22,2021,5
+TASK_0402,2024-01-17 18:00:00,Market Research,Excel,Risk Management,Formatting,Agent_B,False,49.7,Missing Data,29.62,4930,7
+TASK_0403,2024-01-17 19:00:00,Risk Assessment,Word,Retail Banking,Accuracy,Agent_B,True,99.66,,38.14,2163,7
+TASK_0404,2024-01-17 20:00:00,Compliance Check,PDF,Investment Banking,Compliance,Agent_B,True,98.62,,44.25,456,6
+TASK_0405,2024-01-17 21:00:00,Report Generation,JSON,Investment Banking,Formatting,Agent_B,True,79.29,,46.9,2887,8
+TASK_0406,2024-01-17 22:00:00,Compliance Check,Word,Investment Banking,Accuracy,Agent_A,True,85.75,,47.27,279,6
+TASK_0407,2024-01-17 23:00:00,Data Extraction,JSON,Investment Banking,Timeliness,Agent_C,True,74.67,,32.91,1767,3
+TASK_0408,2024-01-18 00:00:00,Data Extraction,CSV,Trading,Data Quality,Agent_B,False,65.73,Incomplete Output,48.73,2063,3
+TASK_0409,2024-01-18 01:00:00,Risk Assessment,CSV,Insurance,Compliance,Agent_A,False,17.22,Logic Error,38.35,3426,9
+TASK_0410,2024-01-18 02:00:00,Market Research,Word,Retail Banking,Compliance,Agent_C,True,90.36,,43.66,2995,2
+TASK_0411,2024-01-18 03:00:00,Financial Analysis,JSON,Asset Management,Timeliness,Agent_A,True,68.3,,44.15,3139,8
+TASK_0412,2024-01-18 04:00:00,Risk Assessment,CSV,Trading,Data Quality,Agent_C,True,84.44,,38.9,1530,9
+TASK_0413,2024-01-18 05:00:00,Compliance Check,Excel,Risk Management,Completeness,Agent_C,True,94.37,,26.35,2838,5
+TASK_0414,2024-01-18 06:00:00,Market Research,Word,Investment Banking,Formatting,Agent_C,False,52.62,Logic Error,69.26,4522,9
+TASK_0415,2024-01-18 07:00:00,Data Extraction,PDF,Risk Management,Accuracy,Agent_C,False,35.29,Logic Error,33.76,1514,9
+TASK_0416,2024-01-18 08:00:00,Financial Analysis,CSV,Risk Management,Compliance,Agent_A,False,73.69,Hallucination,58.64,2473,10
+TASK_0417,2024-01-18 09:00:00,Compliance Check,Word,Trading,Data Quality,Agent_B,True,97.27,,31.38,4332,3
+TASK_0418,2024-01-18 10:00:00,Report Generation,PDF,Trading,Formatting,Agent_B,False,43.26,Hallucination,47.15,1039,3
+TASK_0419,2024-01-18 11:00:00,Market Research,JSON,Retail Banking,Data Quality,Agent_C,True,67.45,,30.93,3757,10
+TASK_0420,2024-01-18 12:00:00,Compliance Check,JSON,Retail Banking,Accuracy,Agent_A,True,96.12,,26.96,1388,8
+TASK_0421,2024-01-18 13:00:00,Report Generation,JSON,Investment Banking,Completeness,Agent_B,False,49.93,Missing Data,30.28,4015,9
+TASK_0422,2024-01-18 14:00:00,Data Extraction,Word,Investment Banking,Completeness,Agent_C,True,100.0,,26.28,1315,4
+TASK_0423,2024-01-18 15:00:00,Risk Assessment,CSV,Insurance,Timeliness,Agent_C,False,54.53,Missing Data,18.83,2408,2
+TASK_0424,2024-01-18 16:00:00,Data Extraction,JSON,Asset Management,Accuracy,Agent_B,True,80.77,,19.43,4957,1
+TASK_0425,2024-01-18 17:00:00,Data Extraction,Word,Risk Management,Timeliness,Agent_A,True,87.56,,31.29,2935,4
+TASK_0426,2024-01-18 18:00:00,Market Research,PDF,Trading,Accuracy,Agent_B,True,82.78,,52.15,1336,7
+TASK_0427,2024-01-18 19:00:00,Data Extraction,CSV,Retail Banking,Timeliness,Agent_C,True,90.86,,32.89,2195,9
+TASK_0428,2024-01-18 20:00:00,Data Extraction,PDF,Insurance,Timeliness,Agent_A,True,83.33,,38.59,4548,6
+TASK_0429,2024-01-18 21:00:00,Compliance Check,Word,Investment Banking,Formatting,Agent_B,False,46.08,Logic Error,27.88,4949,7
+TASK_0430,2024-01-18 22:00:00,Risk Assessment,Word,Insurance,Timeliness,Agent_A,False,44.01,Missing Data,34.51,1597,9
+TASK_0431,2024-01-18 23:00:00,Data Extraction,PDF,Risk Management,Timeliness,Agent_C,False,51.24,Missing Data,37.02,4510,1
+TASK_0432,2024-01-19 00:00:00,Market Research,CSV,Trading,Data Quality,Agent_C,True,75.53,,31.97,175,1
+TASK_0433,2024-01-19 01:00:00,Market Research,Word,Risk Management,Formatting,Agent_B,True,86.84,,19.19,3590,1
+TASK_0434,2024-01-19 02:00:00,Compliance Check,CSV,Asset Management,Data Quality,Agent_A,False,50.04,Missing Data,49.57,3086,10
+TASK_0435,2024-01-19 03:00:00,Data Extraction,CSV,Retail Banking,Completeness,Agent_A,False,38.4,Logic Error,35.5,2944,3
+TASK_0436,2024-01-19 04:00:00,Report Generation,JSON,Insurance,Accuracy,Agent_C,True,67.52,,41.44,4537,8
+TASK_0437,2024-01-19 05:00:00,Compliance Check,Word,Investment Banking,Formatting,Agent_B,True,76.45,,12.13,1161,5
+TASK_0438,2024-01-19 06:00:00,Market Research,JSON,Insurance,Compliance,Agent_B,True,85.79,,14.83,4876,6
+TASK_0439,2024-01-19 07:00:00,Report Generation,PDF,Trading,Completeness,Agent_C,False,48.38,Hallucination,51.93,4076,10
+TASK_0440,2024-01-19 08:00:00,Market Research,Excel,Retail Banking,Timeliness,Agent_A,True,91.2,,35.53,2720,5
+TASK_0441,2024-01-19 09:00:00,Market Research,Excel,Trading,Data Quality,Agent_A,False,54.82,Missing Data,25.27,617,9
+TASK_0442,2024-01-19 10:00:00,Compliance Check,Excel,Asset Management,Data Quality,Agent_C,True,89.31,,38.31,1485,1
+TASK_0443,2024-01-19 11:00:00,Financial Analysis,CSV,Trading,Data Quality,Agent_B,True,82.52,,40.31,2816,10
+TASK_0444,2024-01-19 12:00:00,Report Generation,PDF,Asset Management,Compliance,Agent_C,True,70.84,,38.75,850,7
+TASK_0445,2024-01-19 13:00:00,Risk Assessment,CSV,Trading,Timeliness,Agent_C,True,86.49,,19.45,4600,9
+TASK_0446,2024-01-19 14:00:00,Risk Assessment,Excel,Investment Banking,Data Quality,Agent_B,True,81.32,,20.47,1811,3
+TASK_0447,2024-01-19 15:00:00,Report Generation,CSV,Trading,Timeliness,Agent_B,False,39.4,Missing Data,24.93,4915,2
+TASK_0448,2024-01-19 16:00:00,Market Research,CSV,Insurance,Accuracy,Agent_C,True,85.58,,25.89,4596,10
+TASK_0449,2024-01-19 17:00:00,Data Extraction,JSON,Trading,Compliance,Agent_C,True,85.46,,22.84,4696,8
+TASK_0450,2024-01-19 18:00:00,Market Research,JSON,Asset Management,Timeliness,Agent_B,True,79.4,,19.33,1837,5
+TASK_0451,2024-01-19 19:00:00,Compliance Check,Excel,Asset Management,Compliance,Agent_B,True,90.42,,22.25,3205,5
+TASK_0452,2024-01-19 20:00:00,Compliance Check,CSV,Asset Management,Data Quality,Agent_C,True,79.65,,20.42,294,4
+TASK_0453,2024-01-19 21:00:00,Financial Analysis,JSON,Retail Banking,Data Quality,Agent_B,True,84.23,,45.84,4576,2
+TASK_0454,2024-01-19 22:00:00,Compliance Check,CSV,Risk Management,Data Quality,Agent_A,True,74.89,,19.07,4946,7
+TASK_0455,2024-01-19 23:00:00,Report Generation,CSV,Risk Management,Data Quality,Agent_C,False,47.15,Missing Data,18.71,1883,5
+TASK_0456,2024-01-20 00:00:00,Data Extraction,CSV,Trading,Data Quality,Agent_B,True,86.97,,0.47,4685,3
+TASK_0457,2024-01-20 01:00:00,Risk Assessment,CSV,Investment Banking,Timeliness,Agent_A,True,71.52,,9.35,2373,8
+TASK_0458,2024-01-20 02:00:00,Financial Analysis,Word,Insurance,Accuracy,Agent_C,True,77.38,,43.23,1141,3
+TASK_0459,2024-01-20 03:00:00,Risk Assessment,CSV,Retail Banking,Formatting,Agent_C,False,62.75,Hallucination,18.22,2239,2
+TASK_0460,2024-01-20 04:00:00,Financial Analysis,Excel,Asset Management,Data Quality,Agent_B,True,90.47,,49.45,854,8
+TASK_0461,2024-01-20 05:00:00,Financial Analysis,Excel,Trading,Data Quality,Agent_A,True,78.23,,62.5,3682,2
+TASK_0462,2024-01-20 06:00:00,Data Extraction,PDF,Asset Management,Completeness,Agent_A,True,88.46,,48.88,4165,2
+TASK_0463,2024-01-20 07:00:00,Financial Analysis,CSV,Asset Management,Compliance,Agent_B,True,86.75,,50.77,536,5
+TASK_0464,2024-01-20 08:00:00,Data Extraction,JSON,Trading,Timeliness,Agent_B,True,88.01,,33.11,4141,4
+TASK_0465,2024-01-20 09:00:00,Market Research,Word,Asset Management,Accuracy,Agent_A,False,64.56,Timeout,48.39,4228,5
+TASK_0466,2024-01-20 10:00:00,Data Extraction,Word,Insurance,Data Quality,Agent_C,True,77.76,,41.73,3223,7
+TASK_0467,2024-01-20 11:00:00,Market Research,JSON,Investment Banking,Accuracy,Agent_B,False,33.6,Logic Error,32.87,625,1
+TASK_0468,2024-01-20 12:00:00,Compliance Check,CSV,Investment Banking,Compliance,Agent_C,True,85.98,,39.24,1544,9
+TASK_0469,2024-01-20 13:00:00,Market Research,Excel,Trading,Timeliness,Agent_C,True,82.74,,23.81,4713,7
+TASK_0470,2024-01-20 14:00:00,Market Research,CSV,Trading,Data Quality,Agent_B,True,84.28,,39.77,3976,10
+TASK_0471,2024-01-20 15:00:00,Compliance Check,PDF,Investment Banking,Completeness,Agent_A,False,69.87,Hallucination,52.86,2766,4
+TASK_0472,2024-01-20 16:00:00,Compliance Check,JSON,Investment Banking,Compliance,Agent_C,False,56.18,Timeout,44.39,3522,6
+TASK_0473,2024-01-20 17:00:00,Data Extraction,JSON,Trading,Timeliness,Agent_B,True,87.24,,14.97,867,3
+TASK_0474,2024-01-20 18:00:00,Risk Assessment,CSV,Trading,Compliance,Agent_A,True,94.44,,52.78,4055,10
+TASK_0475,2024-01-20 19:00:00,Risk Assessment,CSV,Insurance,Data Quality,Agent_B,True,76.26,,38.35,4847,1
+TASK_0476,2024-01-20 20:00:00,Risk Assessment,JSON,Investment Banking,Formatting,Agent_C,True,93.09,,37.49,3644,5
+TASK_0477,2024-01-20 21:00:00,Compliance Check,Word,Investment Banking,Timeliness,Agent_A,False,54.4,Incomplete Output,31.86,2580,6
+TASK_0478,2024-01-20 22:00:00,Financial Analysis,Word,Retail Banking,Compliance,Agent_C,False,36.09,Format Error,48.34,2839,3
+TASK_0479,2024-01-20 23:00:00,Market Research,JSON,Investment Banking,Formatting,Agent_B,True,77.58,,27.61,956,6
+TASK_0480,2024-01-21 00:00:00,Risk Assessment,CSV,Trading,Data Quality,Agent_B,True,88.2,,31.31,1202,10
+TASK_0481,2024-01-21 01:00:00,Risk Assessment,PDF,Trading,Completeness,Agent_B,False,32.42,Logic Error,39.96,939,4
+TASK_0482,2024-01-21 02:00:00,Financial Analysis,JSON,Insurance,Data Quality,Agent_B,True,84.03,,45.92,4396,8
+TASK_0483,2024-01-21 03:00:00,Compliance Check,CSV,Asset Management,Completeness,Agent_C,False,28.63,Logic Error,32.88,517,3
+TASK_0484,2024-01-21 04:00:00,Report Generation,CSV,Asset Management,Timeliness,Agent_A,True,82.37,,10.24,3725,6
+TASK_0485,2024-01-21 05:00:00,Report Generation,Excel,Asset Management,Compliance,Agent_B,True,77.28,,23.89,266,10
+TASK_0486,2024-01-21 06:00:00,Risk Assessment,Excel,Trading,Data Quality,Agent_B,True,83.86,,44.07,3995,5
+TASK_0487,2024-01-21 07:00:00,Market Research,PDF,Retail Banking,Accuracy,Agent_B,False,36.15,Incomplete Output,53.44,3198,2
+TASK_0488,2024-01-21 08:00:00,Data Extraction,Word,Asset Management,Data Quality,Agent_B,True,83.13,,38.07,1219,1
+TASK_0489,2024-01-21 09:00:00,Data Extraction,CSV,Retail Banking,Formatting,Agent_C,True,94.13,,24.41,1483,6
+TASK_0490,2024-01-21 10:00:00,Risk Assessment,PDF,Investment Banking,Timeliness,Agent_C,True,84.11,,46.21,233,3
+TASK_0491,2024-01-21 11:00:00,Financial Analysis,PDF,Retail Banking,Timeliness,Agent_B,True,96.2,,70.54,489,10
+TASK_0492,2024-01-21 12:00:00,Report Generation,Excel,Trading,Formatting,Agent_C,True,78.13,,38.14,44,6
+TASK_0493,2024-01-21 13:00:00,Data Extraction,Word,Trading,Formatting,Agent_C,True,83.42,,31.89,1724,5
+TASK_0494,2024-01-21 14:00:00,Report Generation,Word,Trading,Formatting,Agent_A,True,86.4,,16.63,1461,1
+TASK_0495,2024-01-21 15:00:00,Risk Assessment,CSV,Risk Management,Accuracy,Agent_A,False,56.77,Logic Error,41.16,2946,7
+TASK_0496,2024-01-21 16:00:00,Report Generation,Word,Insurance,Accuracy,Agent_B,False,41.06,Format Error,24.99,3525,9
+TASK_0497,2024-01-21 17:00:00,Data Extraction,CSV,Insurance,Accuracy,Agent_A,True,85.42,,34.91,3513,7
+TASK_0498,2024-01-21 18:00:00,Market Research,Word,Trading,Timeliness,Agent_A,True,74.91,,35.07,4051,7
+TASK_0499,2024-01-21 19:00:00,Compliance Check,Excel,Asset Management,Timeliness,Agent_B,True,92.92,,34.25,1008,5
+TASK_0500,2024-01-21 20:00:00,Risk Assessment,Word,Asset Management,Accuracy,Agent_A,True,80.22,,40.78,4544,1
+TASK_0501,2024-01-21 21:00:00,Report Generation,JSON,Insurance,Compliance,Agent_A,True,80.6,,50.78,4399,7
+TASK_0502,2024-01-21 22:00:00,Data Extraction,JSON,Insurance,Compliance,Agent_A,True,95.94,,18.31,1385,2
+TASK_0503,2024-01-21 23:00:00,Financial Analysis,Word,Investment Banking,Formatting,Agent_A,True,83.53,,33.3,2397,6
+TASK_0504,2024-01-22 00:00:00,Report Generation,PDF,Trading,Timeliness,Agent_A,False,55.31,Timeout,59.67,3258,7
+TASK_0505,2024-01-22 01:00:00,Data Extraction,Word,Risk Management,Timeliness,Agent_A,True,80.56,,20.26,306,6
+TASK_0506,2024-01-22 02:00:00,Report Generation,PDF,Trading,Data Quality,Agent_B,True,90.12,,46.23,1388,1
+TASK_0507,2024-01-22 03:00:00,Report Generation,Excel,Investment Banking,Compliance,Agent_A,True,91.0,,16.99,4258,1
+TASK_0508,2024-01-22 04:00:00,Data Extraction,CSV,Retail Banking,Accuracy,Agent_B,True,88.54,,42.21,2898,1
+TASK_0509,2024-01-22 05:00:00,Risk Assessment,CSV,Investment Banking,Completeness,Agent_C,True,100.0,,16.31,2078,10
+TASK_0510,2024-01-22 06:00:00,Market Research,PDF,Insurance,Completeness,Agent_B,True,79.43,,35.82,1789,9
+TASK_0511,2024-01-22 07:00:00,Data Extraction,PDF,Trading,Accuracy,Agent_B,False,43.39,Logic Error,54.99,1691,2
+TASK_0512,2024-01-22 08:00:00,Compliance Check,Word,Asset Management,Completeness,Agent_A,True,90.2,,26.36,4296,9
+TASK_0513,2024-01-22 09:00:00,Market Research,Word,Insurance,Formatting,Agent_A,True,85.0,,41.51,3349,5
+TASK_0514,2024-01-22 10:00:00,Risk Assessment,JSON,Investment Banking,Compliance,Agent_C,True,74.2,,25.85,1841,7
+TASK_0515,2024-01-22 11:00:00,Compliance Check,Word,Risk Management,Completeness,Agent_C,False,42.42,Logic Error,28.28,2805,7
+TASK_0516,2024-01-22 12:00:00,Financial Analysis,Word,Retail Banking,Accuracy,Agent_A,True,96.11,,58.11,3788,10
+TASK_0517,2024-01-22 13:00:00,Report Generation,Excel,Insurance,Data Quality,Agent_A,True,72.66,,23.67,1400,8
+TASK_0518,2024-01-22 14:00:00,Financial Analysis,JSON,Investment Banking,Compliance,Agent_C,False,51.04,Logic Error,40.89,2362,9
+TASK_0519,2024-01-22 15:00:00,Market Research,CSV,Retail Banking,Compliance,Agent_C,False,56.74,Format Error,25.69,2603,4
+TASK_0520,2024-01-22 16:00:00,Financial Analysis,Excel,Risk Management,Timeliness,Agent_B,True,100.0,,50.09,3464,3
+TASK_0521,2024-01-22 17:00:00,Market Research,Excel,Asset Management,Formatting,Agent_C,False,62.89,Incomplete Output,17.42,4932,8
+TASK_0522,2024-01-22 18:00:00,Report Generation,JSON,Risk Management,Formatting,Agent_C,True,93.24,,38.72,1345,6
+TASK_0523,2024-01-22 19:00:00,Data Extraction,CSV,Insurance,Formatting,Agent_B,True,84.51,,29.58,3168,9
+TASK_0524,2024-01-22 20:00:00,Report Generation,CSV,Retail Banking,Timeliness,Agent_A,True,85.73,,48.07,392,1
+TASK_0525,2024-01-22 21:00:00,Report Generation,Word,Insurance,Compliance,Agent_C,True,88.78,,39.37,3334,1
+TASK_0526,2024-01-22 22:00:00,Data Extraction,JSON,Retail Banking,Completeness,Agent_B,False,60.98,Format Error,44.53,4807,9
+TASK_0527,2024-01-22 23:00:00,Risk Assessment,Word,Risk Management,Compliance,Agent_A,True,74.71,,31.08,1115,6
+TASK_0528,2024-01-23 00:00:00,Compliance Check,Word,Investment Banking,Data Quality,Agent_B,False,42.28,Incomplete Output,28.94,3649,4
+TASK_0529,2024-01-23 01:00:00,Compliance Check,Word,Trading,Data Quality,Agent_C,False,51.47,Format Error,38.78,4953,10
+TASK_0530,2024-01-23 02:00:00,Risk Assessment,JSON,Trading,Completeness,Agent_B,True,84.98,,30.21,3741,3
+TASK_0531,2024-01-23 03:00:00,Financial Analysis,Word,Investment Banking,Timeliness,Agent_B,True,88.83,,56.8,1472,6
+TASK_0532,2024-01-23 04:00:00,Report Generation,PDF,Retail Banking,Accuracy,Agent_C,True,85.27,,34.58,3163,1
+TASK_0533,2024-01-23 05:00:00,Data Extraction,Excel,Investment Banking,Compliance,Agent_B,True,91.1,,21.85,4577,8
+TASK_0534,2024-01-23 06:00:00,Financial Analysis,Word,Retail Banking,Data Quality,Agent_A,False,59.41,Hallucination,55.69,928,6
+TASK_0535,2024-01-23 07:00:00,Report Generation,Excel,Retail Banking,Completeness,Agent_C,False,54.71,Incomplete Output,11.41,4575,10
+TASK_0536,2024-01-23 08:00:00,Financial Analysis,JSON,Risk Management,Accuracy,Agent_B,True,77.2,,63.04,1877,10
+TASK_0537,2024-01-23 09:00:00,Report Generation,CSV,Risk Management,Compliance,Agent_C,True,76.49,,22.1,4641,7
+TASK_0538,2024-01-23 10:00:00,Report Generation,PDF,Asset Management,Formatting,Agent_B,True,68.4,,44.14,2667,1
+TASK_0539,2024-01-23 11:00:00,Market Research,Excel,Retail Banking,Accuracy,Agent_B,True,88.71,,24.49,1311,3
+TASK_0540,2024-01-23 12:00:00,Report Generation,PDF,Asset Management,Completeness,Agent_C,False,70.65,Logic Error,43.31,70,6
+TASK_0541,2024-01-23 13:00:00,Risk Assessment,JSON,Investment Banking,Compliance,Agent_B,True,85.43,,32.43,2165,2
+TASK_0542,2024-01-23 14:00:00,Market Research,Word,Asset Management,Data Quality,Agent_B,True,98.14,,37.54,2491,1
+TASK_0543,2024-01-23 15:00:00,Compliance Check,JSON,Risk Management,Data Quality,Agent_A,True,86.31,,18.04,1231,3
+TASK_0544,2024-01-23 16:00:00,Risk Assessment,Word,Investment Banking,Completeness,Agent_A,False,42.99,Logic Error,34.12,2678,7
+TASK_0545,2024-01-23 17:00:00,Report Generation,PDF,Trading,Timeliness,Agent_B,False,64.72,Missing Data,39.34,3628,3
+TASK_0546,2024-01-23 18:00:00,Compliance Check,Excel,Investment Banking,Accuracy,Agent_A,False,49.18,Missing Data,38.62,3124,7
+TASK_0547,2024-01-23 19:00:00,Financial Analysis,PDF,Trading,Data Quality,Agent_B,True,87.38,,54.16,3178,10
+TASK_0548,2024-01-23 20:00:00,Report Generation,Excel,Insurance,Compliance,Agent_A,True,91.41,,39.77,3913,2
+TASK_0549,2024-01-23 21:00:00,Risk Assessment,Excel,Asset Management,Completeness,Agent_C,True,81.94,,16.87,2504,10
+TASK_0550,2024-01-23 22:00:00,Financial Analysis,CSV,Retail Banking,Accuracy,Agent_A,True,73.57,,52.22,4714,1
+TASK_0551,2024-01-23 23:00:00,Compliance Check,PDF,Retail Banking,Accuracy,Agent_B,False,33.32,Missing Data,41.85,2425,8
+TASK_0552,2024-01-24 00:00:00,Risk Assessment,CSV,Trading,Timeliness,Agent_B,False,68.18,Missing Data,54.14,505,4
+TASK_0553,2024-01-24 01:00:00,Compliance Check,Word,Retail Banking,Accuracy,Agent_A,False,85.17,Format Error,30.65,3286,5
+TASK_0554,2024-01-24 02:00:00,Report Generation,Excel,Asset Management,Completeness,Agent_A,True,90.83,,16.03,1726,3
+TASK_0555,2024-01-24 03:00:00,Risk Assessment,PDF,Retail Banking,Formatting,Agent_A,True,70.63,,38.39,652,1
+TASK_0556,2024-01-24 04:00:00,Risk Assessment,CSV,Asset Management,Compliance,Agent_A,True,89.48,,9.81,4513,6
+TASK_0557,2024-01-24 05:00:00,Market Research,PDF,Investment Banking,Accuracy,Agent_B,True,95.75,,26.88,4592,6
+TASK_0558,2024-01-24 06:00:00,Data Extraction,PDF,Risk Management,Formatting,Agent_B,True,93.08,,36.55,310,4
+TASK_0559,2024-01-24 07:00:00,Report Generation,JSON,Asset Management,Timeliness,Agent_B,False,31.74,Logic Error,4.12,4835,1
+TASK_0560,2024-01-24 08:00:00,Compliance Check,Excel,Asset Management,Completeness,Agent_A,True,92.68,,34.62,1309,3
+TASK_0561,2024-01-24 09:00:00,Data Extraction,Excel,Asset Management,Data Quality,Agent_C,True,80.43,,31.97,3437,6
+TASK_0562,2024-01-24 10:00:00,Risk Assessment,JSON,Asset Management,Formatting,Agent_B,True,80.22,,6.1,1807,4
+TASK_0563,2024-01-24 11:00:00,Report Generation,Word,Insurance,Timeliness,Agent_C,False,40.8,Missing Data,17.21,544,5
+TASK_0564,2024-01-24 12:00:00,Compliance Check,PDF,Insurance,Timeliness,Agent_B,True,84.26,,42.6,3348,6
+TASK_0565,2024-01-24 13:00:00,Risk Assessment,Word,Insurance,Data Quality,Agent_C,False,45.74,Incomplete Output,37.69,555,9
+TASK_0566,2024-01-24 14:00:00,Risk Assessment,Excel,Investment Banking,Accuracy,Agent_C,True,100.0,,42.53,4621,10
+TASK_0567,2024-01-24 15:00:00,Compliance Check,Excel,Retail Banking,Timeliness,Agent_B,False,30.01,Logic Error,32.2,339,2
+TASK_0568,2024-01-24 16:00:00,Market Research,Word,Insurance,Formatting,Agent_C,True,80.64,,15.15,1684,5
+TASK_0569,2024-01-24 17:00:00,Data Extraction,Excel,Trading,Compliance,Agent_A,True,94.32,,30.22,863,5
+TASK_0570,2024-01-24 18:00:00,Data Extraction,Excel,Risk Management,Compliance,Agent_C,True,94.47,,21.41,1279,6
+TASK_0571,2024-01-24 19:00:00,Data Extraction,Excel,Risk Management,Completeness,Agent_B,True,84.15,,47.05,79,5
+TASK_0572,2024-01-24 20:00:00,Financial Analysis,PDF,Insurance,Completeness,Agent_A,True,90.74,,59.65,3875,9
+TASK_0573,2024-01-24 21:00:00,Report Generation,Excel,Investment Banking,Compliance,Agent_B,True,88.04,,47.51,4394,5
+TASK_0574,2024-01-24 22:00:00,Risk Assessment,Excel,Investment Banking,Timeliness,Agent_B,True,81.91,,39.07,4507,8
+TASK_0575,2024-01-24 23:00:00,Compliance Check,JSON,Trading,Completeness,Agent_C,False,49.21,Hallucination,40.16,3123,3
+TASK_0576,2024-01-25 00:00:00,Risk Assessment,Word,Risk Management,Formatting,Agent_B,False,30.55,Missing Data,18.45,1937,2
+TASK_0577,2024-01-25 01:00:00,Financial Analysis,Word,Retail Banking,Data Quality,Agent_B,True,92.46,,45.85,2948,10
+TASK_0578,2024-01-25 02:00:00,Risk Assessment,JSON,Retail Banking,Formatting,Agent_B,True,79.1,,31.81,4387,10
+TASK_0579,2024-01-25 03:00:00,Data Extraction,JSON,Investment Banking,Timeliness,Agent_A,True,87.0,,38.09,664,10
+TASK_0580,2024-01-25 04:00:00,Data Extraction,CSV,Asset Management,Timeliness,Agent_B,True,89.51,,16.76,4526,7
+TASK_0581,2024-01-25 05:00:00,Compliance Check,Word,Trading,Timeliness,Agent_A,False,39.17,Incomplete Output,26.94,4294,4
+TASK_0582,2024-01-25 06:00:00,Compliance Check,Excel,Investment Banking,Compliance,Agent_B,False,57.89,Incomplete Output,30.8,4389,8
+TASK_0583,2024-01-25 07:00:00,Report Generation,Word,Retail Banking,Data Quality,Agent_B,False,47.51,Incomplete Output,34.17,1075,6
+TASK_0584,2024-01-25 08:00:00,Data Extraction,Word,Investment Banking,Accuracy,Agent_A,False,53.93,Incomplete Output,24.1,2456,5
+TASK_0585,2024-01-25 09:00:00,Compliance Check,CSV,Risk Management,Formatting,Agent_B,True,94.7,,25.07,3020,9
+TASK_0586,2024-01-25 10:00:00,Compliance Check,Word,Retail Banking,Formatting,Agent_C,True,74.71,,38.74,2007,4
+TASK_0587,2024-01-25 11:00:00,Compliance Check,PDF,Trading,Completeness,Agent_C,True,77.94,,30.76,2921,10
+TASK_0588,2024-01-25 12:00:00,Financial Analysis,CSV,Insurance,Formatting,Agent_B,False,49.62,Incomplete Output,39.04,928,6
+TASK_0589,2024-01-25 13:00:00,Data Extraction,PDF,Insurance,Accuracy,Agent_C,True,85.31,,59.41,3448,8
+TASK_0590,2024-01-25 14:00:00,Report Generation,CSV,Retail Banking,Accuracy,Agent_B,True,88.05,,33.12,4583,4
+TASK_0591,2024-01-25 15:00:00,Report Generation,PDF,Risk Management,Completeness,Agent_A,False,30.74,Timeout,43.21,1857,4
+TASK_0592,2024-01-25 16:00:00,Data Extraction,Excel,Risk Management,Timeliness,Agent_C,False,32.18,Hallucination,13.6,3067,5
+TASK_0593,2024-01-25 17:00:00,Compliance Check,CSV,Risk Management,Timeliness,Agent_B,True,99.64,,31.12,28,7
+TASK_0594,2024-01-25 18:00:00,Financial Analysis,JSON,Trading,Compliance,Agent_C,False,25.06,Timeout,49.39,3971,10
+TASK_0595,2024-01-25 19:00:00,Risk Assessment,CSV,Asset Management,Formatting,Agent_A,True,77.22,,39.82,94,5
+TASK_0596,2024-01-25 20:00:00,Financial Analysis,PDF,Investment Banking,Timeliness,Agent_B,True,100.0,,57.84,2204,4
+TASK_0597,2024-01-25 21:00:00,Risk Assessment,PDF,Trading,Data Quality,Agent_A,True,85.52,,28.33,1858,1
+TASK_0598,2024-01-25 22:00:00,Risk Assessment,CSV,Trading,Compliance,Agent_C,True,92.78,,31.18,3598,8
+TASK_0599,2024-01-25 23:00:00,Compliance Check,Excel,Risk Management,Accuracy,Agent_A,False,55.32,Missing Data,46.41,4382,3
+TASK_0600,2024-01-26 00:00:00,Financial Analysis,CSV,Investment Banking,Timeliness,Agent_B,True,84.34,,60.91,382,1
+TASK_0601,2024-01-26 01:00:00,Financial Analysis,PDF,Trading,Completeness,Agent_C,False,45.68,Hallucination,70.58,4388,2
+TASK_0602,2024-01-26 02:00:00,Market Research,JSON,Insurance,Accuracy,Agent_A,False,49.87,Hallucination,11.96,4534,4
+TASK_0603,2024-01-26 03:00:00,Market Research,PDF,Trading,Data Quality,Agent_A,True,99.95,,49.2,1971,9
+TASK_0604,2024-01-26 04:00:00,Report Generation,JSON,Retail Banking,Accuracy,Agent_B,False,39.06,Logic Error,18.69,3346,8
+TASK_0605,2024-01-26 05:00:00,Data Extraction,Word,Insurance,Data Quality,Agent_C,True,80.28,,36.99,2490,1
+TASK_0606,2024-01-26 06:00:00,Risk Assessment,CSV,Insurance,Data Quality,Agent_C,True,88.94,,29.42,688,1
+TASK_0607,2024-01-26 07:00:00,Compliance Check,Excel,Asset Management,Data Quality,Agent_C,False,33.64,Incomplete Output,27.62,2450,9
+TASK_0608,2024-01-26 08:00:00,Market Research,CSV,Insurance,Completeness,Agent_A,True,92.04,,34.96,3493,2
+TASK_0609,2024-01-26 09:00:00,Report Generation,JSON,Trading,Data Quality,Agent_C,True,72.41,,17.79,4283,10
+TASK_0610,2024-01-26 10:00:00,Market Research,JSON,Asset Management,Completeness,Agent_B,True,87.32,,30.46,2384,9
+TASK_0611,2024-01-26 11:00:00,Report Generation,JSON,Insurance,Completeness,Agent_B,True,97.85,,21.02,4431,2
+TASK_0612,2024-01-26 12:00:00,Compliance Check,Excel,Insurance,Formatting,Agent_B,True,72.85,,29.11,1302,8
+TASK_0613,2024-01-26 13:00:00,Risk Assessment,JSON,Retail Banking,Accuracy,Agent_B,False,27.87,Incomplete Output,30.29,3597,8
+TASK_0614,2024-01-26 14:00:00,Report Generation,CSV,Insurance,Compliance,Agent_A,True,77.9,,43.6,3137,9
+TASK_0615,2024-01-26 15:00:00,Compliance Check,JSON,Risk Management,Data Quality,Agent_A,True,75.98,,41.28,364,1
+TASK_0616,2024-01-26 16:00:00,Financial Analysis,Excel,Investment Banking,Timeliness,Agent_B,True,93.37,,57.6,1400,7
+TASK_0617,2024-01-26 17:00:00,Report Generation,CSV,Asset Management,Completeness,Agent_A,True,93.67,,46.04,1153,10
+TASK_0618,2024-01-26 18:00:00,Financial Analysis,PDF,Risk Management,Timeliness,Agent_C,False,57.91,Timeout,46.96,1939,10
+TASK_0619,2024-01-26 19:00:00,Data Extraction,Excel,Insurance,Formatting,Agent_A,True,77.48,,24.39,2589,9
+TASK_0620,2024-01-26 20:00:00,Risk Assessment,Excel,Investment Banking,Compliance,Agent_C,True,75.13,,28.35,4000,6
+TASK_0621,2024-01-26 21:00:00,Market Research,Excel,Risk Management,Compliance,Agent_A,True,85.0,,24.32,58,4
+TASK_0622,2024-01-26 22:00:00,Financial Analysis,Excel,Trading,Completeness,Agent_B,True,84.98,,61.16,841,10
+TASK_0623,2024-01-26 23:00:00,Risk Assessment,CSV,Asset Management,Completeness,Agent_C,True,85.63,,40.54,2738,5
+TASK_0624,2024-01-27 00:00:00,Data Extraction,Word,Trading,Compliance,Agent_A,True,80.14,,25.96,574,6
+TASK_0625,2024-01-27 01:00:00,Compliance Check,JSON,Retail Banking,Timeliness,Agent_C,True,100.0,,32.68,358,6
+TASK_0626,2024-01-27 02:00:00,Compliance Check,Excel,Insurance,Compliance,Agent_B,True,87.57,,28.35,1903,10
+TASK_0627,2024-01-27 03:00:00,Report Generation,CSV,Investment Banking,Timeliness,Agent_C,False,52.31,Hallucination,40.72,456,3
+TASK_0628,2024-01-27 04:00:00,Report Generation,JSON,Investment Banking,Accuracy,Agent_C,True,84.08,,26.15,4315,10
+TASK_0629,2024-01-27 05:00:00,Compliance Check,PDF,Retail Banking,Completeness,Agent_B,False,24.16,Incomplete Output,55.41,2142,1
+TASK_0630,2024-01-27 06:00:00,Market Research,PDF,Insurance,Completeness,Agent_A,True,94.0,,57.65,2312,10
+TASK_0631,2024-01-27 07:00:00,Compliance Check,CSV,Investment Banking,Timeliness,Agent_C,False,43.11,Format Error,39.67,158,2
+TASK_0632,2024-01-27 08:00:00,Market Research,CSV,Risk Management,Completeness,Agent_B,True,79.12,,9.8,3280,6
+TASK_0633,2024-01-27 09:00:00,Compliance Check,CSV,Risk Management,Timeliness,Agent_B,True,88.68,,52.44,3858,10
+TASK_0634,2024-01-27 10:00:00,Risk Assessment,Word,Risk Management,Compliance,Agent_A,True,85.99,,23.74,3825,6
+TASK_0635,2024-01-27 11:00:00,Data Extraction,Word,Investment Banking,Accuracy,Agent_A,True,71.95,,25.97,3301,8
+TASK_0636,2024-01-27 12:00:00,Compliance Check,Word,Retail Banking,Completeness,Agent_A,True,88.06,,21.95,2980,1
+TASK_0637,2024-01-27 13:00:00,Risk Assessment,Excel,Asset Management,Accuracy,Agent_B,True,71.91,,39.42,574,2
+TASK_0638,2024-01-27 14:00:00,Risk Assessment,Excel,Retail Banking,Completeness,Agent_B,True,81.31,,37.57,4042,1
+TASK_0639,2024-01-27 15:00:00,Report Generation,PDF,Trading,Compliance,Agent_A,True,89.16,,36.82,1364,8
+TASK_0640,2024-01-27 16:00:00,Market Research,JSON,Trading,Completeness,Agent_A,True,88.37,,24.22,1517,8
+TASK_0641,2024-01-27 17:00:00,Report Generation,PDF,Insurance,Data Quality,Agent_C,True,91.85,,61.77,1763,3
+TASK_0642,2024-01-27 18:00:00,Data Extraction,CSV,Trading,Formatting,Agent_A,False,29.54,Missing Data,19.56,2235,7
+TASK_0643,2024-01-27 19:00:00,Report Generation,CSV,Asset Management,Accuracy,Agent_B,True,74.4,,35.44,4381,2
+TASK_0644,2024-01-27 20:00:00,Compliance Check,JSON,Asset Management,Timeliness,Agent_A,True,91.68,,11.61,1625,10
+TASK_0645,2024-01-27 21:00:00,Report Generation,PDF,Trading,Formatting,Agent_B,True,90.78,,49.97,2125,4
+TASK_0646,2024-01-27 22:00:00,Data Extraction,Word,Retail Banking,Completeness,Agent_A,True,79.27,,23.12,1592,7
+TASK_0647,2024-01-27 23:00:00,Compliance Check,Excel,Trading,Accuracy,Agent_C,True,70.2,,21.21,4281,1
+TASK_0648,2024-01-28 00:00:00,Report Generation,Excel,Retail Banking,Formatting,Agent_B,True,86.02,,30.87,4245,7
+TASK_0649,2024-01-28 01:00:00,Market Research,JSON,Insurance,Timeliness,Agent_A,True,90.51,,29.21,4918,10
+TASK_0650,2024-01-28 02:00:00,Financial Analysis,PDF,Investment Banking,Compliance,Agent_B,True,86.86,,72.21,2519,9
+TASK_0651,2024-01-28 03:00:00,Market Research,Excel,Trading,Timeliness,Agent_B,True,83.66,,31.89,2159,10
+TASK_0652,2024-01-28 04:00:00,Risk Assessment,Excel,Asset Management,Completeness,Agent_A,False,42.71,Hallucination,22.5,1125,4
+TASK_0653,2024-01-28 05:00:00,Compliance Check,JSON,Retail Banking,Compliance,Agent_A,True,80.95,,21.51,551,2
+TASK_0654,2024-01-28 06:00:00,Data Extraction,Word,Insurance,Completeness,Agent_A,True,83.4,,21.88,4620,4
+TASK_0655,2024-01-28 07:00:00,Financial Analysis,CSV,Trading,Compliance,Agent_C,False,39.92,Hallucination,48.28,181,2
+TASK_0656,2024-01-28 08:00:00,Risk Assessment,Word,Risk Management,Timeliness,Agent_B,True,86.34,,30.38,3464,9
+TASK_0657,2024-01-28 09:00:00,Risk Assessment,Word,Risk Management,Data Quality,Agent_B,True,84.94,,31.58,820,10
+TASK_0658,2024-01-28 10:00:00,Financial Analysis,Excel,Asset Management,Accuracy,Agent_B,True,82.59,,50.81,4661,6
+TASK_0659,2024-01-28 11:00:00,Compliance Check,CSV,Risk Management,Completeness,Agent_C,False,46.02,Hallucination,9.8,2936,9
+TASK_0660,2024-01-28 12:00:00,Report Generation,JSON,Investment Banking,Formatting,Agent_A,True,86.23,,35.19,711,3
+TASK_0661,2024-01-28 13:00:00,Risk Assessment,Excel,Trading,Compliance,Agent_A,True,82.1,,35.95,537,7
+TASK_0662,2024-01-28 14:00:00,Risk Assessment,JSON,Trading,Completeness,Agent_A,False,21.83,Timeout,24.61,3493,1
+TASK_0663,2024-01-28 15:00:00,Report Generation,PDF,Insurance,Completeness,Agent_B,True,87.07,,50.28,2986,10
+TASK_0664,2024-01-28 16:00:00,Financial Analysis,PDF,Risk Management,Completeness,Agent_A,False,68.71,Logic Error,71.78,1792,10
+TASK_0665,2024-01-28 17:00:00,Market Research,Excel,Asset Management,Formatting,Agent_B,True,82.48,,20.59,955,9
+TASK_0666,2024-01-28 18:00:00,Compliance Check,Word,Investment Banking,Completeness,Agent_A,True,84.64,,23.55,4886,2
+TASK_0667,2024-01-28 19:00:00,Report Generation,Excel,Retail Banking,Formatting,Agent_B,True,95.63,,15.69,2380,2
+TASK_0668,2024-01-28 20:00:00,Financial Analysis,JSON,Asset Management,Timeliness,Agent_C,True,92.45,,57.32,3685,2
+TASK_0669,2024-01-28 21:00:00,Data Extraction,Word,Investment Banking,Completeness,Agent_A,True,92.18,,41.3,38,3
+TASK_0670,2024-01-28 22:00:00,Market Research,JSON,Retail Banking,Accuracy,Agent_C,True,87.48,,23.92,764,2
+TASK_0671,2024-01-28 23:00:00,Risk Assessment,CSV,Retail Banking,Timeliness,Agent_C,True,87.49,,21.14,3995,9
+TASK_0672,2024-01-29 00:00:00,Market Research,Word,Investment Banking,Accuracy,Agent_A,False,45.96,Logic Error,18.62,365,1
+TASK_0673,2024-01-29 01:00:00,Report Generation,Excel,Asset Management,Formatting,Agent_C,False,53.49,Incomplete Output,24.45,2126,9
+TASK_0674,2024-01-29 02:00:00,Compliance Check,CSV,Trading,Formatting,Agent_C,True,100.0,,41.84,3687,5
+TASK_0675,2024-01-29 03:00:00,Report Generation,JSON,Asset Management,Formatting,Agent_C,True,85.98,,24.46,1422,4
+TASK_0676,2024-01-29 04:00:00,Compliance Check,Word,Trading,Compliance,Agent_C,False,32.81,Hallucination,33.63,2985,10
+TASK_0677,2024-01-29 05:00:00,Market Research,PDF,Investment Banking,Formatting,Agent_A,True,82.13,,49.5,930,9
+TASK_0678,2024-01-29 06:00:00,Report Generation,CSV,Asset Management,Data Quality,Agent_A,True,87.32,,20.99,2525,5
+TASK_0679,2024-01-29 07:00:00,Market Research,PDF,Retail Banking,Compliance,Agent_B,True,83.98,,45.8,3253,9
+TASK_0680,2024-01-29 08:00:00,Risk Assessment,Excel,Trading,Compliance,Agent_C,False,36.14,Timeout,32.88,4319,9
+TASK_0681,2024-01-29 09:00:00,Risk Assessment,Excel,Investment Banking,Completeness,Agent_C,True,76.93,,28.72,3744,5
+TASK_0682,2024-01-29 10:00:00,Market Research,PDF,Investment Banking,Accuracy,Agent_A,False,54.68,Incomplete Output,45.19,4710,4
+TASK_0683,2024-01-29 11:00:00,Market Research,CSV,Trading,Timeliness,Agent_B,True,87.23,,32.92,1106,1
+TASK_0684,2024-01-29 12:00:00,Compliance Check,PDF,Insurance,Formatting,Agent_B,False,13.65,Logic Error,43.3,851,10
+TASK_0685,2024-01-29 13:00:00,Compliance Check,CSV,Insurance,Completeness,Agent_A,True,88.89,,10.51,1457,3
+TASK_0686,2024-01-29 14:00:00,Financial Analysis,Word,Retail Banking,Formatting,Agent_A,True,70.67,,49.8,1099,9
+TASK_0687,2024-01-29 15:00:00,Data Extraction,Word,Trading,Data Quality,Agent_C,True,93.01,,20.39,1134,6
+TASK_0688,2024-01-29 16:00:00,Compliance Check,Excel,Trading,Completeness,Agent_A,True,82.27,,38.67,2691,8
+TASK_0689,2024-01-29 17:00:00,Report Generation,Word,Retail Banking,Accuracy,Agent_B,True,90.44,,28.01,347,2
+TASK_0690,2024-01-29 18:00:00,Compliance Check,Excel,Investment Banking,Compliance,Agent_C,False,58.03,Format Error,18.14,2110,3
+TASK_0691,2024-01-29 19:00:00,Report Generation,CSV,Investment Banking,Compliance,Agent_B,True,81.25,,22.41,1646,5
+TASK_0692,2024-01-29 20:00:00,Compliance Check,Excel,Insurance,Completeness,Agent_B,True,96.18,,39.69,3247,7
+TASK_0693,2024-01-29 21:00:00,Report Generation,Excel,Insurance,Formatting,Agent_B,True,87.37,,33.93,2496,2
+TASK_0694,2024-01-29 22:00:00,Market Research,Excel,Insurance,Accuracy,Agent_C,True,77.22,,35.14,944,8
+TASK_0695,2024-01-29 23:00:00,Data Extraction,CSV,Investment Banking,Timeliness,Agent_B,False,46.96,Logic Error,28.58,381,2
+TASK_0696,2024-01-30 00:00:00,Compliance Check,Word,Asset Management,Compliance,Agent_B,True,87.49,,16.18,4766,10
+TASK_0697,2024-01-30 01:00:00,Risk Assessment,PDF,Insurance,Accuracy,Agent_A,False,91.15,Format Error,58.6,4501,4
+TASK_0698,2024-01-30 02:00:00,Data Extraction,Word,Retail Banking,Completeness,Agent_C,True,82.48,,27.62,4759,1
+TASK_0699,2024-01-30 03:00:00,Market Research,CSV,Risk Management,Formatting,Agent_B,True,84.83,,29.72,1080,6
+TASK_0700,2024-01-30 04:00:00,Market Research,PDF,Retail Banking,Compliance,Agent_A,False,45.8,Missing Data,54.72,4780,4
+TASK_0701,2024-01-30 05:00:00,Compliance Check,Excel,Asset Management,Formatting,Agent_B,True,90.26,,40.46,2175,5
+TASK_0702,2024-01-30 06:00:00,Data Extraction,CSV,Asset Management,Timeliness,Agent_A,False,39.12,Missing Data,19.82,4843,7
+TASK_0703,2024-01-30 07:00:00,Data Extraction,JSON,Risk Management,Timeliness,Agent_B,False,42.0,Hallucination,24.07,1040,6
+TASK_0704,2024-01-30 08:00:00,Data Extraction,Word,Insurance,Compliance,Agent_C,True,76.89,,11.64,2832,7
+TASK_0705,2024-01-30 09:00:00,Compliance Check,Excel,Retail Banking,Formatting,Agent_B,True,75.43,,26.93,2230,10
+TASK_0706,2024-01-30 10:00:00,Financial Analysis,JSON,Risk Management,Compliance,Agent_A,True,80.98,,39.93,1224,4
+TASK_0707,2024-01-30 11:00:00,Report Generation,CSV,Asset Management,Timeliness,Agent_C,False,39.49,Incomplete Output,27.25,1804,5
+TASK_0708,2024-01-30 12:00:00,Financial Analysis,Excel,Insurance,Completeness,Agent_B,False,55.82,Format Error,47.13,3303,2
+TASK_0709,2024-01-30 13:00:00,Financial Analysis,Excel,Trading,Accuracy,Agent_B,True,74.93,,57.87,1898,6
+TASK_0710,2024-01-30 14:00:00,Data Extraction,Word,Insurance,Formatting,Agent_A,True,87.61,,16.11,4890,8
+TASK_0711,2024-01-30 15:00:00,Financial Analysis,Excel,Retail Banking,Accuracy,Agent_C,True,84.01,,53.09,3677,2
+TASK_0712,2024-01-30 16:00:00,Financial Analysis,CSV,Asset Management,Data Quality,Agent_C,False,43.74,Format Error,49.78,2732,1
+TASK_0713,2024-01-30 17:00:00,Market Research,Word,Insurance,Compliance,Agent_B,True,80.91,,41.41,3768,4
+TASK_0714,2024-01-30 18:00:00,Market Research,Word,Investment Banking,Accuracy,Agent_A,False,72.87,Missing Data,39.71,3855,8
+TASK_0715,2024-01-30 19:00:00,Report Generation,PDF,Trading,Accuracy,Agent_A,True,100.0,,38.43,242,3
+TASK_0716,2024-01-30 20:00:00,Report Generation,JSON,Retail Banking,Accuracy,Agent_A,True,87.5,,47.82,3632,5
+TASK_0717,2024-01-30 21:00:00,Risk Assessment,PDF,Risk Management,Compliance,Agent_A,True,90.86,,32.26,1903,7
+TASK_0718,2024-01-30 22:00:00,Data Extraction,JSON,Risk Management,Timeliness,Agent_C,False,51.23,Incomplete Output,24.71,4345,10
+TASK_0719,2024-01-30 23:00:00,Financial Analysis,PDF,Retail Banking,Timeliness,Agent_A,False,44.13,Hallucination,57.65,2472,2
+TASK_0720,2024-01-31 00:00:00,Data Extraction,JSON,Insurance,Accuracy,Agent_B,True,89.07,,28.11,3961,9
+TASK_0721,2024-01-31 01:00:00,Compliance Check,Word,Trading,Timeliness,Agent_B,False,55.74,Hallucination,53.94,1404,3
+TASK_0722,2024-01-31 02:00:00,Market Research,CSV,Risk Management,Timeliness,Agent_C,True,78.26,,31.33,1085,1
+TASK_0723,2024-01-31 03:00:00,Market Research,PDF,Retail Banking,Compliance,Agent_B,True,79.69,,25.94,4986,2
+TASK_0724,2024-01-31 04:00:00,Data Extraction,PDF,Insurance,Data Quality,Agent_B,True,92.52,,41.1,4690,7
+TASK_0725,2024-01-31 05:00:00,Risk Assessment,JSON,Investment Banking,Completeness,Agent_C,True,84.84,,32.89,3244,2
+TASK_0726,2024-01-31 06:00:00,Market Research,PDF,Risk Management,Timeliness,Agent_B,True,84.7,,60.01,2813,6
+TASK_0727,2024-01-31 07:00:00,Report Generation,Excel,Investment Banking,Compliance,Agent_A,False,71.14,Hallucination,50.54,3395,6
+TASK_0728,2024-01-31 08:00:00,Market Research,CSV,Asset Management,Formatting,Agent_B,True,88.94,,30.41,1137,1
+TASK_0729,2024-01-31 09:00:00,Report Generation,JSON,Retail Banking,Completeness,Agent_C,True,84.99,,24.79,3199,9
+TASK_0730,2024-01-31 10:00:00,Compliance Check,CSV,Insurance,Data Quality,Agent_B,False,55.57,Format Error,33.51,4617,2
+TASK_0731,2024-01-31 11:00:00,Compliance Check,JSON,Insurance,Formatting,Agent_B,False,55.59,Missing Data,41.91,276,6
+TASK_0732,2024-01-31 12:00:00,Market Research,CSV,Investment Banking,Data Quality,Agent_C,False,29.55,Incomplete Output,30.46,4657,3
+TASK_0733,2024-01-31 13:00:00,Report Generation,Excel,Trading,Formatting,Agent_C,False,40.09,Logic Error,24.51,2740,7
+TASK_0734,2024-01-31 14:00:00,Financial Analysis,PDF,Asset Management,Timeliness,Agent_B,False,36.18,Timeout,51.18,302,4
+TASK_0735,2024-01-31 15:00:00,Financial Analysis,Excel,Investment Banking,Timeliness,Agent_B,False,46.35,Logic Error,47.35,1773,9
+TASK_0736,2024-01-31 16:00:00,Compliance Check,CSV,Retail Banking,Timeliness,Agent_C,True,95.79,,37.12,1392,9
+TASK_0737,2024-01-31 17:00:00,Report Generation,Excel,Asset Management,Formatting,Agent_A,False,38.63,Timeout,40.58,3378,8
+TASK_0738,2024-01-31 18:00:00,Market Research,Word,Retail Banking,Accuracy,Agent_C,False,34.15,Missing Data,29.99,2381,10
+TASK_0739,2024-01-31 19:00:00,Market Research,PDF,Investment Banking,Timeliness,Agent_A,True,78.05,,44.89,202,3
+TASK_0740,2024-01-31 20:00:00,Market Research,Excel,Retail Banking,Compliance,Agent_C,True,100.0,,36.5,1085,3
+TASK_0741,2024-01-31 21:00:00,Risk Assessment,PDF,Risk Management,Formatting,Agent_A,True,78.87,,33.72,523,7
+TASK_0742,2024-01-31 22:00:00,Market Research,Word,Asset Management,Compliance,Agent_B,True,68.52,,40.91,675,7
+TASK_0743,2024-01-31 23:00:00,Data Extraction,PDF,Risk Management,Compliance,Agent_A,True,88.68,,47.27,1373,8
+TASK_0744,2024-02-01 00:00:00,Report Generation,PDF,Insurance,Accuracy,Agent_B,False,48.82,Incomplete Output,38.78,2198,1
+TASK_0745,2024-02-01 01:00:00,Compliance Check,Excel,Trading,Formatting,Agent_A,True,77.88,,14.78,3400,1
+TASK_0746,2024-02-01 02:00:00,Market Research,CSV,Risk Management,Compliance,Agent_A,False,73.5,Logic Error,9.89,4553,9
+TASK_0747,2024-02-01 03:00:00,Financial Analysis,Excel,Retail Banking,Completeness,Agent_C,False,47.57,Format Error,52.43,1219,9
+TASK_0748,2024-02-01 04:00:00,Compliance Check,Word,Risk Management,Accuracy,Agent_B,True,92.71,,47.39,4049,3
+TASK_0749,2024-02-01 05:00:00,Market Research,Word,Risk Management,Data Quality,Agent_C,True,81.57,,34.16,2773,6
+TASK_0750,2024-02-01 06:00:00,Report Generation,JSON,Retail Banking,Completeness,Agent_C,True,86.63,,43.13,3227,9
+TASK_0751,2024-02-01 07:00:00,Risk Assessment,PDF,Trading,Accuracy,Agent_B,True,91.01,,51.54,2472,6
+TASK_0752,2024-02-01 08:00:00,Report Generation,CSV,Trading,Compliance,Agent_B,True,83.68,,39.39,3995,2
+TASK_0753,2024-02-01 09:00:00,Data Extraction,PDF,Retail Banking,Compliance,Agent_B,True,88.48,,61.72,4874,3
+TASK_0754,2024-02-01 10:00:00,Risk Assessment,Word,Asset Management,Timeliness,Agent_C,True,95.37,,25.33,874,8
+TASK_0755,2024-02-01 11:00:00,Market Research,JSON,Trading,Formatting,Agent_C,True,89.15,,54.06,4811,6
+TASK_0756,2024-02-01 12:00:00,Market Research,PDF,Investment Banking,Formatting,Agent_C,True,100.0,,61.34,1957,3
+TASK_0757,2024-02-01 13:00:00,Data Extraction,Excel,Insurance,Completeness,Agent_B,True,77.07,,20.08,4531,10
+TASK_0758,2024-02-01 14:00:00,Report Generation,PDF,Trading,Completeness,Agent_B,True,97.59,,49.57,317,9
+TASK_0759,2024-02-01 15:00:00,Market Research,Excel,Risk Management,Accuracy,Agent_A,False,75.21,Timeout,35.62,114,6
+TASK_0760,2024-02-01 16:00:00,Risk Assessment,JSON,Retail Banking,Formatting,Agent_C,True,83.97,,21.48,3088,5
+TASK_0761,2024-02-01 17:00:00,Financial Analysis,CSV,Trading,Formatting,Agent_B,True,78.56,,51.88,2631,8
+TASK_0762,2024-02-01 18:00:00,Compliance Check,Word,Investment Banking,Completeness,Agent_B,True,75.9,,27.25,4142,4
+TASK_0763,2024-02-01 19:00:00,Compliance Check,PDF,Trading,Completeness,Agent_A,True,86.4,,35.35,3074,7
+TASK_0764,2024-02-01 20:00:00,Compliance Check,Excel,Investment Banking,Completeness,Agent_A,True,80.35,,33.39,2377,9
+TASK_0765,2024-02-01 21:00:00,Data Extraction,PDF,Insurance,Accuracy,Agent_B,False,33.42,Incomplete Output,40.02,4274,10
+TASK_0766,2024-02-01 22:00:00,Market Research,JSON,Asset Management,Timeliness,Agent_C,True,85.79,,11.55,4551,6
+TASK_0767,2024-02-01 23:00:00,Data Extraction,CSV,Risk Management,Completeness,Agent_A,True,82.8,,7.99,1816,4
+TASK_0768,2024-02-02 00:00:00,Data Extraction,Word,Asset Management,Completeness,Agent_C,False,51.12,Missing Data,33.55,4848,10
+TASK_0769,2024-02-02 01:00:00,Market Research,JSON,Investment Banking,Timeliness,Agent_A,False,31.86,Timeout,21.42,4724,1
+TASK_0770,2024-02-02 02:00:00,Financial Analysis,Excel,Trading,Data Quality,Agent_C,False,53.62,Hallucination,28.14,4627,8
+TASK_0771,2024-02-02 03:00:00,Compliance Check,Word,Insurance,Completeness,Agent_A,True,86.25,,25.81,4665,9
+TASK_0772,2024-02-02 04:00:00,Risk Assessment,Word,Investment Banking,Compliance,Agent_B,False,63.81,Logic Error,33.96,3539,2
+TASK_0773,2024-02-02 05:00:00,Report Generation,Excel,Risk Management,Data Quality,Agent_B,True,85.23,,22.88,2969,1
+TASK_0774,2024-02-02 06:00:00,Compliance Check,Excel,Trading,Timeliness,Agent_B,False,39.0,Format Error,19.7,1172,5
+TASK_0775,2024-02-02 07:00:00,Report Generation,JSON,Asset Management,Timeliness,Agent_B,True,74.35,,8.22,2502,6
+TASK_0776,2024-02-02 08:00:00,Market Research,JSON,Retail Banking,Accuracy,Agent_C,False,23.83,Format Error,38.03,1744,10
+TASK_0777,2024-02-02 09:00:00,Market Research,PDF,Insurance,Completeness,Agent_B,True,78.14,,29.26,1739,9
+TASK_0778,2024-02-02 10:00:00,Data Extraction,Word,Insurance,Accuracy,Agent_A,True,75.0,,18.07,4932,9
+TASK_0779,2024-02-02 11:00:00,Risk Assessment,Excel,Asset Management,Timeliness,Agent_A,True,85.53,,22.05,4487,10
+TASK_0780,2024-02-02 12:00:00,Report Generation,JSON,Trading,Accuracy,Agent_C,True,92.41,,29.09,1303,2
+TASK_0781,2024-02-02 13:00:00,Financial Analysis,Excel,Retail Banking,Completeness,Agent_B,True,79.51,,43.83,232,3
+TASK_0782,2024-02-02 14:00:00,Report Generation,JSON,Risk Management,Accuracy,Agent_A,False,56.85,Logic Error,27.59,1309,3
+TASK_0783,2024-02-02 15:00:00,Compliance Check,CSV,Asset Management,Compliance,Agent_C,False,42.36,Logic Error,31.97,4957,4
+TASK_0784,2024-02-02 16:00:00,Report Generation,Word,Trading,Accuracy,Agent_A,True,73.72,,40.86,3926,7
+TASK_0785,2024-02-02 17:00:00,Data Extraction,Excel,Insurance,Formatting,Agent_A,True,93.72,,22.52,3859,6
+TASK_0786,2024-02-02 18:00:00,Compliance Check,Excel,Investment Banking,Accuracy,Agent_B,False,46.29,Hallucination,24.13,2209,2
+TASK_0787,2024-02-02 19:00:00,Financial Analysis,CSV,Asset Management,Formatting,Agent_A,False,54.3,Timeout,28.69,2234,1
+TASK_0788,2024-02-02 20:00:00,Report Generation,PDF,Risk Management,Formatting,Agent_C,False,71.1,Incomplete Output,37.89,3818,7
+TASK_0789,2024-02-02 21:00:00,Data Extraction,Excel,Risk Management,Data Quality,Agent_B,True,67.44,,45.99,1735,9
+TASK_0790,2024-02-02 22:00:00,Data Extraction,PDF,Insurance,Completeness,Agent_B,True,81.13,,53.42,3136,9
+TASK_0791,2024-02-02 23:00:00,Market Research,Word,Asset Management,Timeliness,Agent_C,True,78.13,,34.89,1755,9
+TASK_0792,2024-02-03 00:00:00,Risk Assessment,CSV,Retail Banking,Accuracy,Agent_C,False,52.57,Hallucination,36.27,4481,3
+TASK_0793,2024-02-03 01:00:00,Compliance Check,JSON,Risk Management,Compliance,Agent_A,True,80.03,,38.62,2699,7
+TASK_0794,2024-02-03 02:00:00,Report Generation,Word,Investment Banking,Timeliness,Agent_C,True,87.65,,46.18,3483,3
+TASK_0795,2024-02-03 03:00:00,Financial Analysis,Word,Trading,Formatting,Agent_B,False,35.88,Incomplete Output,57.8,3058,2
+TASK_0796,2024-02-03 04:00:00,Market Research,JSON,Trading,Compliance,Agent_A,False,69.61,Incomplete Output,18.18,1735,9
+TASK_0797,2024-02-03 05:00:00,Report Generation,JSON,Investment Banking,Data Quality,Agent_A,True,95.05,,28.0,626,3
+TASK_0798,2024-02-03 06:00:00,Report Generation,PDF,Risk Management,Data Quality,Agent_B,False,77.61,Missing Data,27.55,1731,9
+TASK_0799,2024-02-03 07:00:00,Risk Assessment,JSON,Risk Management,Timeliness,Agent_C,True,84.98,,24.67,1316,10
+TASK_0800,2024-02-03 08:00:00,Report Generation,PDF,Asset Management,Compliance,Agent_B,True,74.21,,45.16,2441,1
+TASK_0801,2024-02-03 09:00:00,Financial Analysis,Excel,Investment Banking,Compliance,Agent_C,False,55.06,Incomplete Output,75.03,1048,10
+TASK_0802,2024-02-03 10:00:00,Financial Analysis,CSV,Asset Management,Accuracy,Agent_A,True,94.0,,32.57,1799,2
+TASK_0803,2024-02-03 11:00:00,Market Research,PDF,Risk Management,Compliance,Agent_A,False,42.79,Hallucination,25.26,3577,7
+TASK_0804,2024-02-03 12:00:00,Data Extraction,Word,Insurance,Completeness,Agent_C,True,92.19,,30.38,1784,9
+TASK_0805,2024-02-03 13:00:00,Risk Assessment,Word,Asset Management,Timeliness,Agent_A,True,88.28,,43.87,1255,1
+TASK_0806,2024-02-03 14:00:00,Market Research,PDF,Investment Banking,Data Quality,Agent_B,False,40.19,Incomplete Output,27.21,39,7
+TASK_0807,2024-02-03 15:00:00,Market Research,Excel,Insurance,Accuracy,Agent_A,True,78.51,,33.67,2188,3
+TASK_0808,2024-02-03 16:00:00,Financial Analysis,Word,Asset Management,Completeness,Agent_A,False,33.26,Timeout,57.07,362,4
+TASK_0809,2024-02-03 17:00:00,Report Generation,PDF,Asset Management,Timeliness,Agent_B,False,49.02,Incomplete Output,71.51,4888,6
+TASK_0810,2024-02-03 18:00:00,Data Extraction,PDF,Trading,Compliance,Agent_B,True,84.99,,56.24,4028,9
+TASK_0811,2024-02-03 19:00:00,Report Generation,Word,Insurance,Data Quality,Agent_B,True,84.15,,13.8,1109,3
+TASK_0812,2024-02-03 20:00:00,Report Generation,Word,Insurance,Completeness,Agent_C,True,85.83,,33.15,4187,4
+TASK_0813,2024-02-03 21:00:00,Risk Assessment,Word,Investment Banking,Compliance,Agent_A,False,34.09,Format Error,37.26,3192,2
+TASK_0814,2024-02-03 22:00:00,Financial Analysis,PDF,Investment Banking,Data Quality,Agent_B,False,49.49,Hallucination,60.5,880,3
+TASK_0815,2024-02-03 23:00:00,Data Extraction,PDF,Trading,Formatting,Agent_C,False,42.77,Missing Data,50.09,4464,10
+TASK_0816,2024-02-04 00:00:00,Market Research,PDF,Investment Banking,Formatting,Agent_B,False,68.1,Logic Error,41.37,1795,7
+TASK_0817,2024-02-04 01:00:00,Risk Assessment,PDF,Trading,Data Quality,Agent_B,False,51.63,Timeout,45.45,916,10
+TASK_0818,2024-02-04 02:00:00,Market Research,JSON,Trading,Accuracy,Agent_B,True,84.16,,36.13,2265,1
+TASK_0819,2024-02-04 03:00:00,Compliance Check,JSON,Retail Banking,Accuracy,Agent_C,True,100.0,,24.48,2839,10
+TASK_0820,2024-02-04 04:00:00,Financial Analysis,Excel,Risk Management,Compliance,Agent_B,False,86.44,Hallucination,34.46,4621,9
+TASK_0821,2024-02-04 05:00:00,Financial Analysis,CSV,Retail Banking,Data Quality,Agent_B,False,23.18,Missing Data,43.79,249,5
+TASK_0822,2024-02-04 06:00:00,Compliance Check,PDF,Insurance,Formatting,Agent_B,False,19.3,Incomplete Output,35.98,4910,2
+TASK_0823,2024-02-04 07:00:00,Data Extraction,Excel,Trading,Completeness,Agent_B,True,78.53,,48.9,266,1
+TASK_0824,2024-02-04 08:00:00,Financial Analysis,PDF,Retail Banking,Timeliness,Agent_C,False,64.55,Hallucination,66.1,3409,1
+TASK_0825,2024-02-04 09:00:00,Financial Analysis,JSON,Trading,Data Quality,Agent_A,True,93.76,,67.82,3724,1
+TASK_0826,2024-02-04 10:00:00,Report Generation,JSON,Insurance,Timeliness,Agent_B,True,83.43,,19.58,4525,1
+TASK_0827,2024-02-04 11:00:00,Financial Analysis,JSON,Asset Management,Compliance,Agent_B,False,59.5,Missing Data,43.24,3374,10
+TASK_0828,2024-02-04 12:00:00,Financial Analysis,CSV,Asset Management,Data Quality,Agent_A,False,30.96,Hallucination,52.63,4706,3
+TASK_0829,2024-02-04 13:00:00,Report Generation,Excel,Trading,Completeness,Agent_C,True,73.71,,33.64,4342,3
+TASK_0830,2024-02-04 14:00:00,Compliance Check,Word,Risk Management,Timeliness,Agent_B,False,64.34,Hallucination,30.36,4598,3
+TASK_0831,2024-02-04 15:00:00,Financial Analysis,Word,Insurance,Formatting,Agent_C,True,84.96,,44.06,4441,5
+TASK_0832,2024-02-04 16:00:00,Risk Assessment,PDF,Asset Management,Formatting,Agent_B,True,92.9,,55.39,4609,1
+TASK_0833,2024-02-04 17:00:00,Data Extraction,JSON,Insurance,Timeliness,Agent_B,True,84.0,,6.62,468,2
+TASK_0834,2024-02-04 18:00:00,Risk Assessment,JSON,Insurance,Data Quality,Agent_B,True,79.23,,24.92,3751,4
+TASK_0835,2024-02-04 19:00:00,Compliance Check,CSV,Investment Banking,Formatting,Agent_A,True,89.43,,34.51,4875,2
+TASK_0836,2024-02-04 20:00:00,Risk Assessment,CSV,Investment Banking,Data Quality,Agent_C,True,99.89,,20.54,4102,5
+TASK_0837,2024-02-04 21:00:00,Report Generation,CSV,Investment Banking,Formatting,Agent_B,False,55.09,Incomplete Output,47.71,974,4
+TASK_0838,2024-02-04 22:00:00,Report Generation,JSON,Insurance,Completeness,Agent_C,True,83.91,,21.52,566,1
+TASK_0839,2024-02-04 23:00:00,Compliance Check,CSV,Trading,Compliance,Agent_B,False,31.05,Missing Data,23.91,4937,8
+TASK_0840,2024-02-05 00:00:00,Compliance Check,JSON,Retail Banking,Compliance,Agent_A,True,95.39,,55.98,1996,10
+TASK_0841,2024-02-05 01:00:00,Risk Assessment,Excel,Investment Banking,Formatting,Agent_A,True,88.05,,33.53,2342,9
+TASK_0842,2024-02-05 02:00:00,Financial Analysis,JSON,Trading,Timeliness,Agent_B,False,68.93,Hallucination,46.9,2233,3
+TASK_0843,2024-02-05 03:00:00,Compliance Check,PDF,Asset Management,Timeliness,Agent_A,True,65.77,,58.92,4705,9
+TASK_0844,2024-02-05 04:00:00,Compliance Check,JSON,Insurance,Accuracy,Agent_A,True,81.34,,31.1,4249,1
+TASK_0845,2024-02-05 05:00:00,Compliance Check,PDF,Asset Management,Formatting,Agent_B,False,30.24,Hallucination,32.48,874,4
+TASK_0846,2024-02-05 06:00:00,Risk Assessment,Excel,Investment Banking,Timeliness,Agent_C,True,85.21,,29.47,4572,7
+TASK_0847,2024-02-05 07:00:00,Compliance Check,Word,Investment Banking,Completeness,Agent_A,False,31.59,Logic Error,35.24,3995,8
+TASK_0848,2024-02-05 08:00:00,Compliance Check,PDF,Trading,Accuracy,Agent_A,False,63.78,Hallucination,46.61,1515,10
+TASK_0849,2024-02-05 09:00:00,Risk Assessment,PDF,Asset Management,Data Quality,Agent_B,False,36.62,Timeout,38.63,3584,8
+TASK_0850,2024-02-05 10:00:00,Risk Assessment,Excel,Risk Management,Compliance,Agent_B,True,85.82,,6.86,700,8
+TASK_0851,2024-02-05 11:00:00,Risk Assessment,Word,Insurance,Completeness,Agent_A,True,83.07,,41.53,3705,5
+TASK_0852,2024-02-05 12:00:00,Report Generation,PDF,Risk Management,Formatting,Agent_A,False,59.57,Logic Error,51.77,1105,10
+TASK_0853,2024-02-05 13:00:00,Compliance Check,PDF,Investment Banking,Accuracy,Agent_A,True,86.09,,45.25,1766,6
+TASK_0854,2024-02-05 14:00:00,Financial Analysis,JSON,Investment Banking,Data Quality,Agent_B,False,47.55,Logic Error,40.78,986,5
+TASK_0855,2024-02-05 15:00:00,Compliance Check,PDF,Investment Banking,Formatting,Agent_A,True,95.06,,47.88,3191,3
+TASK_0856,2024-02-05 16:00:00,Compliance Check,PDF,Trading,Compliance,Agent_C,False,43.37,Logic Error,41.22,1217,1
+TASK_0857,2024-02-05 17:00:00,Risk Assessment,JSON,Insurance,Compliance,Agent_A,True,96.03,,37.68,3868,5
+TASK_0858,2024-02-05 18:00:00,Market Research,PDF,Investment Banking,Accuracy,Agent_C,False,32.54,Missing Data,62.62,1156,1
+TASK_0859,2024-02-05 19:00:00,Financial Analysis,JSON,Risk Management,Accuracy,Agent_C,True,85.89,,51.38,1169,3
+TASK_0860,2024-02-05 20:00:00,Risk Assessment,PDF,Retail Banking,Timeliness,Agent_C,False,49.6,Hallucination,32.63,1179,9
+TASK_0861,2024-02-05 21:00:00,Market Research,PDF,Risk Management,Formatting,Agent_A,True,83.29,,53.37,3993,4
+TASK_0862,2024-02-05 22:00:00,Compliance Check,JSON,Investment Banking,Timeliness,Agent_C,True,86.6,,40.94,1772,1
+TASK_0863,2024-02-05 23:00:00,Financial Analysis,Excel,Asset Management,Accuracy,Agent_A,True,86.51,,40.47,3254,1
+TASK_0864,2024-02-06 00:00:00,Risk Assessment,CSV,Trading,Data Quality,Agent_C,True,93.57,,14.93,1599,10
+TASK_0865,2024-02-06 01:00:00,Financial Analysis,Word,Investment Banking,Completeness,Agent_C,True,89.02,,41.09,3808,6
+TASK_0866,2024-02-06 02:00:00,Data Extraction,PDF,Investment Banking,Compliance,Agent_B,False,64.6,Hallucination,47.9,3861,4
+TASK_0867,2024-02-06 03:00:00,Compliance Check,Word,Trading,Accuracy,Agent_C,False,56.15,Timeout,34.92,4647,9
+TASK_0868,2024-02-06 04:00:00,Market Research,PDF,Insurance,Timeliness,Agent_B,False,66.88,Timeout,40.33,2104,8
+TASK_0869,2024-02-06 05:00:00,Report Generation,Excel,Asset Management,Completeness,Agent_B,False,79.82,Format Error,36.03,3942,7
+TASK_0870,2024-02-06 06:00:00,Risk Assessment,CSV,Insurance,Accuracy,Agent_B,False,69.1,Format Error,34.69,4364,4
+TASK_0871,2024-02-06 07:00:00,Report Generation,PDF,Investment Banking,Formatting,Agent_C,False,40.7,Timeout,49.84,682,5
+TASK_0872,2024-02-06 08:00:00,Compliance Check,CSV,Risk Management,Compliance,Agent_C,True,97.39,,33.2,3804,9
+TASK_0873,2024-02-06 09:00:00,Compliance Check,Word,Risk Management,Compliance,Agent_B,True,87.11,,29.6,1339,3
+TASK_0874,2024-02-06 10:00:00,Financial Analysis,Word,Retail Banking,Data Quality,Agent_C,True,85.58,,57.38,785,6
+TASK_0875,2024-02-06 11:00:00,Data Extraction,CSV,Investment Banking,Completeness,Agent_B,True,90.65,,32.28,4645,8
+TASK_0876,2024-02-06 12:00:00,Market Research,JSON,Trading,Completeness,Agent_C,True,100.0,,21.39,4898,4
+TASK_0877,2024-02-06 13:00:00,Data Extraction,Word,Retail Banking,Completeness,Agent_A,True,95.53,,27.74,1288,6
+TASK_0878,2024-02-06 14:00:00,Financial Analysis,Excel,Trading,Data Quality,Agent_B,False,63.04,Timeout,70.76,1664,9
+TASK_0879,2024-02-06 15:00:00,Financial Analysis,Excel,Risk Management,Formatting,Agent_A,True,81.91,,29.24,842,5
+TASK_0880,2024-02-06 16:00:00,Risk Assessment,CSV,Retail Banking,Formatting,Agent_A,False,45.66,Missing Data,39.56,4815,8
+TASK_0881,2024-02-06 17:00:00,Data Extraction,PDF,Asset Management,Compliance,Agent_C,False,12.91,Incomplete Output,43.54,1430,5
+TASK_0882,2024-02-06 18:00:00,Financial Analysis,CSV,Insurance,Timeliness,Agent_A,True,95.32,,58.65,79,6
+TASK_0883,2024-02-06 19:00:00,Financial Analysis,JSON,Risk Management,Accuracy,Agent_C,True,90.8,,54.48,53,3
+TASK_0884,2024-02-06 20:00:00,Risk Assessment,PDF,Investment Banking,Formatting,Agent_B,True,85.74,,29.35,907,1
+TASK_0885,2024-02-06 21:00:00,Compliance Check,CSV,Insurance,Completeness,Agent_A,True,88.67,,47.4,2028,3
+TASK_0886,2024-02-06 22:00:00,Report Generation,Word,Asset Management,Accuracy,Agent_A,True,86.57,,27.66,1199,5
+TASK_0887,2024-02-06 23:00:00,Financial Analysis,CSV,Trading,Data Quality,Agent_B,False,8.05,Format Error,41.98,3756,2
+TASK_0888,2024-02-07 00:00:00,Compliance Check,CSV,Risk Management,Completeness,Agent_C,False,49.81,Logic Error,21.6,3316,5
+TASK_0889,2024-02-07 01:00:00,Risk Assessment,Excel,Trading,Accuracy,Agent_C,True,80.58,,19.03,144,2
+TASK_0890,2024-02-07 02:00:00,Report Generation,PDF,Insurance,Accuracy,Agent_B,False,44.41,Incomplete Output,42.02,2050,4
+TASK_0891,2024-02-07 03:00:00,Market Research,Excel,Insurance,Completeness,Agent_A,True,82.92,,58.51,2988,2
+TASK_0892,2024-02-07 04:00:00,Compliance Check,PDF,Investment Banking,Formatting,Agent_C,True,83.78,,63.64,3440,6
+TASK_0893,2024-02-07 05:00:00,Financial Analysis,JSON,Trading,Compliance,Agent_C,False,34.13,Timeout,41.25,2762,3
+TASK_0894,2024-02-07 06:00:00,Compliance Check,PDF,Asset Management,Formatting,Agent_B,False,72.45,Hallucination,38.1,722,10
+TASK_0895,2024-02-07 07:00:00,Compliance Check,CSV,Trading,Compliance,Agent_B,False,32.21,Logic Error,35.62,3968,3
+TASK_0896,2024-02-07 08:00:00,Financial Analysis,JSON,Insurance,Accuracy,Agent_B,False,35.93,Incomplete Output,54.98,1504,8
+TASK_0897,2024-02-07 09:00:00,Market Research,PDF,Insurance,Timeliness,Agent_A,False,74.38,Hallucination,53.38,3514,1
+TASK_0898,2024-02-07 10:00:00,Financial Analysis,JSON,Trading,Data Quality,Agent_B,False,26.59,Format Error,63.01,4771,8
+TASK_0899,2024-02-07 11:00:00,Market Research,CSV,Risk Management,Completeness,Agent_C,False,39.56,Logic Error,37.42,1456,4
+TASK_0900,2024-02-07 12:00:00,Compliance Check,JSON,Trading,Timeliness,Agent_B,True,92.28,,28.16,4839,3
+TASK_0901,2024-02-07 13:00:00,Compliance Check,CSV,Insurance,Completeness,Agent_C,False,29.04,Hallucination,12.34,2419,6
+TASK_0902,2024-02-07 14:00:00,Compliance Check,Word,Insurance,Formatting,Agent_C,True,96.59,,26.85,3942,3
+TASK_0903,2024-02-07 15:00:00,Compliance Check,Word,Investment Banking,Data Quality,Agent_B,False,62.1,Missing Data,50.68,2539,3
+TASK_0904,2024-02-07 16:00:00,Report Generation,JSON,Investment Banking,Completeness,Agent_A,False,35.75,Missing Data,32.86,4097,9
+TASK_0905,2024-02-07 17:00:00,Data Extraction,JSON,Trading,Completeness,Agent_C,True,83.52,,42.12,3734,4
+TASK_0906,2024-02-07 18:00:00,Report Generation,JSON,Risk Management,Completeness,Agent_B,True,92.66,,28.94,2848,3
+TASK_0907,2024-02-07 19:00:00,Data Extraction,Excel,Trading,Accuracy,Agent_C,True,80.87,,36.19,3957,2
+TASK_0908,2024-02-07 20:00:00,Report Generation,Excel,Investment Banking,Timeliness,Agent_A,False,40.8,Incomplete Output,25.09,2980,7
+TASK_0909,2024-02-07 21:00:00,Financial Analysis,PDF,Retail Banking,Completeness,Agent_B,False,31.11,Format Error,63.86,3669,6
+TASK_0910,2024-02-07 22:00:00,Financial Analysis,CSV,Investment Banking,Accuracy,Agent_C,False,38.52,Incomplete Output,62.73,1229,5
+TASK_0911,2024-02-07 23:00:00,Financial Analysis,JSON,Asset Management,Compliance,Agent_B,True,80.91,,55.64,3936,2
+TASK_0912,2024-02-08 00:00:00,Report Generation,Excel,Investment Banking,Completeness,Agent_B,False,37.31,Missing Data,36.83,3973,10
+TASK_0913,2024-02-08 01:00:00,Risk Assessment,Word,Investment Banking,Formatting,Agent_A,False,52.42,Logic Error,33.01,3641,3
+TASK_0914,2024-02-08 02:00:00,Financial Analysis,Excel,Asset Management,Data Quality,Agent_B,True,87.72,,34.98,4515,8
+TASK_0915,2024-02-08 03:00:00,Compliance Check,CSV,Asset Management,Completeness,Agent_A,True,82.53,,25.27,341,9
+TASK_0916,2024-02-08 04:00:00,Report Generation,JSON,Asset Management,Completeness,Agent_C,True,89.01,,18.02,2875,10
+TASK_0917,2024-02-08 05:00:00,Market Research,CSV,Retail Banking,Accuracy,Agent_B,True,92.78,,20.76,412,6
+TASK_0918,2024-02-08 06:00:00,Financial Analysis,Excel,Trading,Timeliness,Agent_C,False,44.41,Incomplete Output,48.86,438,10
+TASK_0919,2024-02-08 07:00:00,Financial Analysis,Word,Asset Management,Formatting,Agent_B,False,50.39,Timeout,50.83,351,5
+TASK_0920,2024-02-08 08:00:00,Report Generation,JSON,Trading,Accuracy,Agent_A,True,79.79,,26.36,3827,3
+TASK_0921,2024-02-08 09:00:00,Risk Assessment,PDF,Trading,Completeness,Agent_B,True,83.14,,50.48,1122,3
+TASK_0922,2024-02-08 10:00:00,Risk Assessment,Word,Asset Management,Formatting,Agent_C,True,78.48,,45.01,2228,5
+TASK_0923,2024-02-08 11:00:00,Report Generation,Excel,Investment Banking,Accuracy,Agent_A,False,43.16,Timeout,30.96,452,1
+TASK_0924,2024-02-08 12:00:00,Data Extraction,JSON,Retail Banking,Completeness,Agent_C,True,73.93,,39.02,1041,1
+TASK_0925,2024-02-08 13:00:00,Report Generation,CSV,Trading,Accuracy,Agent_C,True,81.48,,24.05,3334,10
+TASK_0926,2024-02-08 14:00:00,Data Extraction,Excel,Asset Management,Data Quality,Agent_A,True,82.53,,25.64,2943,8
+TASK_0927,2024-02-08 15:00:00,Compliance Check,Word,Insurance,Data Quality,Agent_C,True,83.65,,35.99,750,10
+TASK_0928,2024-02-08 16:00:00,Market Research,PDF,Investment Banking,Accuracy,Agent_B,False,33.17,Missing Data,58.73,1145,3
+TASK_0929,2024-02-08 17:00:00,Risk Assessment,JSON,Trading,Completeness,Agent_A,False,40.74,Format Error,37.53,1267,6
+TASK_0930,2024-02-08 18:00:00,Report Generation,JSON,Trading,Accuracy,Agent_A,True,85.86,,20.93,2116,5
+TASK_0931,2024-02-08 19:00:00,Market Research,JSON,Risk Management,Completeness,Agent_C,False,18.83,Timeout,20.78,3374,5
+TASK_0932,2024-02-08 20:00:00,Compliance Check,CSV,Insurance,Compliance,Agent_C,False,25.97,Missing Data,47.87,3505,1
+TASK_0933,2024-02-08 21:00:00,Financial Analysis,Word,Risk Management,Formatting,Agent_B,False,44.49,Missing Data,49.13,4272,4
+TASK_0934,2024-02-08 22:00:00,Compliance Check,PDF,Asset Management,Data Quality,Agent_B,True,86.16,,37.96,2898,4
+TASK_0935,2024-02-08 23:00:00,Risk Assessment,CSV,Investment Banking,Accuracy,Agent_A,True,82.05,,38.07,635,3
+TASK_0936,2024-02-09 00:00:00,Report Generation,Word,Asset Management,Timeliness,Agent_B,True,84.01,,39.31,1565,2
+TASK_0937,2024-02-09 01:00:00,Data Extraction,JSON,Trading,Timeliness,Agent_A,False,30.36,Timeout,36.62,1904,10
+TASK_0938,2024-02-09 02:00:00,Financial Analysis,Word,Asset Management,Accuracy,Agent_B,True,77.77,,32.02,352,10
+TASK_0939,2024-02-09 03:00:00,Report Generation,Excel,Retail Banking,Timeliness,Agent_B,True,72.36,,21.82,4706,10
+TASK_0940,2024-02-09 04:00:00,Data Extraction,CSV,Asset Management,Accuracy,Agent_B,True,99.35,,33.69,2396,5
+TASK_0941,2024-02-09 05:00:00,Data Extraction,Word,Asset Management,Data Quality,Agent_B,True,82.58,,43.46,4806,4
+TASK_0942,2024-02-09 06:00:00,Report Generation,PDF,Retail Banking,Timeliness,Agent_A,True,89.94,,48.84,4523,5
+TASK_0943,2024-02-09 07:00:00,Market Research,CSV,Asset Management,Accuracy,Agent_B,True,80.13,,19.92,2292,9
+TASK_0944,2024-02-09 08:00:00,Compliance Check,Word,Risk Management,Formatting,Agent_A,False,38.85,Incomplete Output,40.18,4526,5
+TASK_0945,2024-02-09 09:00:00,Data Extraction,Excel,Asset Management,Data Quality,Agent_A,False,31.8,Hallucination,32.69,4413,9
+TASK_0946,2024-02-09 10:00:00,Risk Assessment,CSV,Retail Banking,Data Quality,Agent_B,True,88.21,,15.48,2300,2
+TASK_0947,2024-02-09 11:00:00,Compliance Check,Word,Insurance,Compliance,Agent_A,True,88.58,,29.92,1397,3
+TASK_0948,2024-02-09 12:00:00,Market Research,Word,Risk Management,Formatting,Agent_C,False,55.23,Incomplete Output,39.63,1713,8
+TASK_0949,2024-02-09 13:00:00,Compliance Check,Word,Risk Management,Completeness,Agent_C,True,67.16,,48.81,509,6
+TASK_0950,2024-02-09 14:00:00,Compliance Check,Word,Retail Banking,Compliance,Agent_B,True,90.87,,37.65,2659,4
+TASK_0951,2024-02-09 15:00:00,Data Extraction,CSV,Investment Banking,Formatting,Agent_A,True,91.0,,32.4,644,10
+TASK_0952,2024-02-09 16:00:00,Data Extraction,CSV,Insurance,Timeliness,Agent_A,True,82.79,,26.61,2065,9
+TASK_0953,2024-02-09 17:00:00,Data Extraction,Word,Insurance,Compliance,Agent_C,False,21.31,Timeout,24.09,2614,9
+TASK_0954,2024-02-09 18:00:00,Data Extraction,PDF,Retail Banking,Timeliness,Agent_B,True,78.53,,35.58,1416,3
+TASK_0955,2024-02-09 19:00:00,Compliance Check,PDF,Investment Banking,Completeness,Agent_C,False,54.82,Timeout,37.02,1768,8
+TASK_0956,2024-02-09 20:00:00,Financial Analysis,CSV,Trading,Data Quality,Agent_A,True,70.01,,51.84,1423,7
+TASK_0957,2024-02-09 21:00:00,Financial Analysis,JSON,Retail Banking,Compliance,Agent_A,False,59.13,Incomplete Output,61.76,3075,5
+TASK_0958,2024-02-09 22:00:00,Compliance Check,Word,Trading,Compliance,Agent_A,True,84.47,,29.74,3408,8
+TASK_0959,2024-02-09 23:00:00,Compliance Check,PDF,Risk Management,Completeness,Agent_A,True,90.72,,44.49,4260,1
+TASK_0960,2024-02-10 00:00:00,Data Extraction,Excel,Asset Management,Timeliness,Agent_A,True,79.16,,12.23,1128,6
+TASK_0961,2024-02-10 01:00:00,Risk Assessment,Word,Insurance,Formatting,Agent_B,True,91.2,,31.79,3206,1
+TASK_0962,2024-02-10 02:00:00,Compliance Check,CSV,Retail Banking,Formatting,Agent_C,False,28.05,Hallucination,21.76,3608,5
+TASK_0963,2024-02-10 03:00:00,Compliance Check,CSV,Asset Management,Data Quality,Agent_C,True,94.73,,6.07,978,4
+TASK_0964,2024-02-10 04:00:00,Compliance Check,Word,Investment Banking,Timeliness,Agent_C,False,48.15,Logic Error,44.6,4422,4
+TASK_0965,2024-02-10 05:00:00,Compliance Check,JSON,Retail Banking,Compliance,Agent_A,True,93.27,,35.92,2804,8
+TASK_0966,2024-02-10 06:00:00,Data Extraction,JSON,Risk Management,Compliance,Agent_A,True,76.64,,47.84,3095,10
+TASK_0967,2024-02-10 07:00:00,Data Extraction,Excel,Asset Management,Formatting,Agent_C,False,57.18,Format Error,33.32,4752,5
+TASK_0968,2024-02-10 08:00:00,Risk Assessment,JSON,Trading,Timeliness,Agent_C,True,84.4,,36.02,1288,2
+TASK_0969,2024-02-10 09:00:00,Market Research,CSV,Retail Banking,Timeliness,Agent_B,True,81.1,,19.75,2269,10
+TASK_0970,2024-02-10 10:00:00,Risk Assessment,CSV,Insurance,Accuracy,Agent_C,True,93.56,,29.15,3186,9
+TASK_0971,2024-02-10 11:00:00,Compliance Check,CSV,Insurance,Compliance,Agent_C,False,70.02,Timeout,40.88,1796,5
+TASK_0972,2024-02-10 12:00:00,Financial Analysis,PDF,Investment Banking,Data Quality,Agent_A,False,69.76,Incomplete Output,58.71,3347,8
+TASK_0973,2024-02-10 13:00:00,Data Extraction,PDF,Risk Management,Formatting,Agent_A,True,81.88,,34.69,4926,5
+TASK_0974,2024-02-10 14:00:00,Financial Analysis,Excel,Retail Banking,Formatting,Agent_B,True,100.0,,51.77,4490,9
+TASK_0975,2024-02-10 15:00:00,Report Generation,CSV,Retail Banking,Compliance,Agent_B,False,26.13,Format Error,21.91,255,10
+TASK_0976,2024-02-10 16:00:00,Market Research,Word,Investment Banking,Data Quality,Agent_A,True,89.3,,35.53,1427,10
+TASK_0977,2024-02-10 17:00:00,Report Generation,Word,Trading,Compliance,Agent_A,True,69.44,,29.64,1849,7
+TASK_0978,2024-02-10 18:00:00,Financial Analysis,JSON,Retail Banking,Compliance,Agent_A,True,73.61,,45.44,1826,4
+TASK_0979,2024-02-10 19:00:00,Data Extraction,Excel,Retail Banking,Timeliness,Agent_B,True,81.27,,29.12,2300,8
+TASK_0980,2024-02-10 20:00:00,Market Research,Excel,Insurance,Data Quality,Agent_A,True,90.99,,24.03,1573,10
+TASK_0981,2024-02-10 21:00:00,Risk Assessment,JSON,Retail Banking,Formatting,Agent_C,True,100.0,,29.92,1882,3
+TASK_0982,2024-02-10 22:00:00,Compliance Check,JSON,Trading,Timeliness,Agent_C,True,71.98,,40.6,2085,3
+TASK_0983,2024-02-10 23:00:00,Data Extraction,Word,Retail Banking,Accuracy,Agent_B,True,100.0,,34.37,3660,7
+TASK_0984,2024-02-11 00:00:00,Data Extraction,JSON,Asset Management,Formatting,Agent_A,False,37.3,Hallucination,39.53,4586,6
+TASK_0985,2024-02-11 01:00:00,Data Extraction,Word,Trading,Formatting,Agent_C,False,53.81,Logic Error,17.83,2117,2
+TASK_0986,2024-02-11 02:00:00,Risk Assessment,Word,Insurance,Completeness,Agent_C,False,74.0,Timeout,32.57,3449,9
+TASK_0987,2024-02-11 03:00:00,Data Extraction,PDF,Trading,Completeness,Agent_C,False,67.62,Missing Data,56.23,3269,8
+TASK_0988,2024-02-11 04:00:00,Risk Assessment,JSON,Investment Banking,Data Quality,Agent_B,True,86.44,,21.85,997,3
+TASK_0989,2024-02-11 05:00:00,Market Research,Excel,Trading,Formatting,Agent_A,True,86.85,,21.61,4078,6
+TASK_0990,2024-02-11 06:00:00,Financial Analysis,JSON,Insurance,Data Quality,Agent_B,True,96.47,,43.12,991,7
+TASK_0991,2024-02-11 07:00:00,Market Research,Word,Risk Management,Compliance,Agent_C,False,51.34,Hallucination,25.34,4782,5
+TASK_0992,2024-02-11 08:00:00,Market Research,PDF,Investment Banking,Timeliness,Agent_C,True,68.12,,58.39,2878,10
+TASK_0993,2024-02-11 09:00:00,Compliance Check,PDF,Risk Management,Data Quality,Agent_C,True,81.55,,53.06,550,3
+TASK_0994,2024-02-11 10:00:00,Compliance Check,Excel,Insurance,Timeliness,Agent_C,False,51.49,Logic Error,22.83,4737,2
+TASK_0995,2024-02-11 11:00:00,Data Extraction,Excel,Investment Banking,Completeness,Agent_A,False,13.11,Missing Data,29.03,2431,8
+TASK_0996,2024-02-11 12:00:00,Data Extraction,Word,Investment Banking,Completeness,Agent_A,True,73.11,,38.69,3869,5
+TASK_0997,2024-02-11 13:00:00,Data Extraction,CSV,Trading,Data Quality,Agent_B,True,93.08,,16.68,2886,6
+TASK_0998,2024-02-11 14:00:00,Financial Analysis,Word,Insurance,Compliance,Agent_C,True,90.36,,61.25,382,8
+TASK_0999,2024-02-11 15:00:00,Market Research,Word,Investment Banking,Accuracy,Agent_A,False,52.48,Logic Error,26.58,1435,5
